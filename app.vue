@@ -1,15 +1,20 @@
+
+
 <template>
   
+  <example22/>
+   <!-- This is a comment -->
   <NuxtPage/>
+
 
 </template>
 
 <script>
-
+import example22 from './components/example.vue';
 
 export default defineComponent({
   components: {
-    
+    example22
   },
 })
 </script>
