@@ -2,7 +2,7 @@
 
 <template>
   
-  <example22/>
+  <navbar/>
    <!-- This is a comment -->
   <NuxtPage/>
 
@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import example22 from './components/example.vue';
+import navbar from './components/navbar.vue';
 
 export default defineComponent({
   components: {
-    example22
+    navbar
   },
 })
 </script>
@@ -22,6 +22,31 @@ export default defineComponent({
 
 <style>
 
+  .IntLogo
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+    .navbar 
+  {
+    text-align: center;
+  }
+
+
+  .navbar-nav
+  {
+    margin: auto;
+  }
+
+
+  
+  body,
+  .navbar
+  {
+    background-color: #C4E3E4!important;
+  }
+  
   .container {
     
     height: fit-content;
