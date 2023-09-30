@@ -10,7 +10,7 @@
   
   
 
-  <NuxtPage/>
+  
 
 
 </template>
@@ -20,7 +20,8 @@ import navbar from './components/navbar.vue';
 
 export default defineComponent({
   components: {
-    navbar
+    navbar,
+    
   },
 })
 </script>
