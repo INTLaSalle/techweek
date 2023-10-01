@@ -3,7 +3,7 @@
     <section id="join">
         <div class="row gy-4 justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center">Joins Us</h2>
+                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center">Join Us</h2>
             </div>
         </div>
 
