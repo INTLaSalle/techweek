@@ -1,6 +1,7 @@
 <template>
+    <join/>
     <client-only>
-        <thankyou/>
+        <contact/>
     </client-only>
   
   </template>
@@ -8,11 +9,13 @@
    
   
   <script>
-  import thankyou from '../components/thankyou.vue';
+  import join from '../components/join.vue';
+  import contact from '../components/contact.vue';
   
   export default {
     components: {
-      thankyou
+      join,
+      contact
     },
     data() {
       return {
