@@ -40,7 +40,7 @@
             </div>
             <div class="col-6 col-md-9 col-xl-5">
                 <!-- 2023-10-01: using Thiago email for testing: Change to the correct email of int -->
-                <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/ad585a9e65b5249678e02dd16598598c" method="post">
+                <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/7b3e4e07fd433e8ae806c5313ae90b8f" method="post">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" id="thankYouPage" name="_next" value="http://localhost:3000/thankyou">
                     <input type="hidden" name="_subject" value="An user have sent a message from TechWeek 2023 WebSite!">
