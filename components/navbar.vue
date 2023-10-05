@@ -33,7 +33,7 @@
 	        </li>
 
 			<li class="nav-item">
-	          <a class="nav-link" href="#">JOIN / CONTACT INT</a>
+	          <a class="nav-link" href="/Contact">JOIN / CONTACT INT</a>
 	        </li>
 
 			<li class="nav-item">
