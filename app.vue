@@ -5,7 +5,9 @@
   <navbar/>
    <!-- This is a comment -->
     <div class="container">
+      <div class="row">
       <NuxtPage/>
+       </div>
     </div>
   
   
@@ -56,17 +58,17 @@ export default defineComponent({
   
   .container {
     
-    height: fit-content;
+    /*height: fit-content;
     min-height: 100vh;
     min-width: 100vw;
     width: 100vw;
-    z-index: -1;
+    z-index: -1;*/
   }
  
   .app-container {
-    min-height: 100vh;
+    //min-height: 100vh;
   }
   .content-container {
-    flex-grow: 1;
+    //flex-grow: 1;
   }
 </style>

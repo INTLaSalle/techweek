@@ -1,5 +1,6 @@
 <template>
   <about/>
+  <speakers/>
   <schedule/>
   <sponsors/>
 </template>
@@ -10,12 +11,14 @@
 import about from '../components/about.vue';
 import schedule from '../components/schedule.vue';
 import sponsors from '../components/sponsors.vue';
+import speakers from '../components/speakers.vue';
 
 export default {
   components: {
     about,
     schedule,
-    sponsors
+    sponsors,
+    speakers
   },
   data() {
     return {
