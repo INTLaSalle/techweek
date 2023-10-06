@@ -1,8 +1,6 @@
 <template>
-    <client-only>
-        <thankyou/>
-    </client-only>
-  
+    <thankyou/>
+
   </template>
   
    
