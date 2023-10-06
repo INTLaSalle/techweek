@@ -24,7 +24,7 @@
 
     <div class="about">
         <div class="textbox">
-            <h2>About the Event</h2>
+            <h2>ABOUT THE EVENT</h2><br/><br/>
             <p>
                 TechWeek is an institutional event of LaSalle College, promoted by the Computer Science programs 
                 which aim to bring together students, teachers, industry professionals, collaborators and the community 
@@ -78,8 +78,14 @@
         margin: 20px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     }
-    .textbox h2, p{
+    
+    .textbox H2{
         color: white;
+        text-align: center;
+    }
+    .textbox p{
+        color: white;
+        text-align: justify;
     }
     
 
