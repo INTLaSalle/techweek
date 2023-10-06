@@ -3,13 +3,13 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="@/images/imagetechweek.jpg" class="d-block w-100" alt="...">
+            <img src="@/images/image1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="@/images/image2.jpg" class="d-block w-100" alt="...">
+            <img src="@/images/image2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="@/images/image3.jpg" class="d-block w-100" alt="...">
+            <img src="@/images/image3.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -77,6 +77,24 @@
         padding:20px;
         margin: 20px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+        /* create an animation when hovering over the box */
+        
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.1); /* Increase the size by 10% at the peak of the pulse */
+        }
+    }   
+
+    .textbox:hover {
+        
+       /* create an animation when hovering over the box */
+        animation: pulse 1s;
+
     }
     
     .textbox H2{
