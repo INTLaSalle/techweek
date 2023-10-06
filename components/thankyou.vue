@@ -16,12 +16,13 @@
 </template>
 
 <script>
-	export default {
+	
+    export default defineComponent({
         mounted() {
             document.getElementById("originHomePage").href = window.location.origin;
             document.getElementById("originHomePage").innerHTML = window.location.origin;
-        }
-    }
+        },
+    });
 </script>
 
 <style scoped>

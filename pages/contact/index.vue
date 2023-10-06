@@ -1,8 +1,6 @@
 <template>
     <join/>
-    <client-only>
-        <contact/>
-    </client-only>
+    <contact/>
   
   </template>
   
