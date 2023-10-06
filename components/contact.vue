@@ -39,8 +39,8 @@
                 </div>
             </div>
             <div class="col-6 col-md-9 col-xl-5">
-                <!-- 2023-10-01: using Thiago email for testing: Change to the correct email of int -->
-                <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/ad585a9e65b5249678e02dd16598598c" method="post">
+                
+                <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/7b3e4e07fd433e8ae806c5313ae90b8f" method="post">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" id="thankYouPage" name="_next" value="http://localhost:3000/thankyou">
                     <input type="hidden" name="_subject" value="An user have sent a message from TechWeek 2023 WebSite!">
@@ -93,32 +93,32 @@
 </template>
 
 <script type="text/javascript">
-	export default {
+	
+    export default defineComponent({
         mounted() {
             (() => {
-                'use strict'
+                'use strict';
 
                 // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                const forms = document.querySelectorAll('.needs-validation')
+                const forms = document.querySelectorAll('.needs-validation');
 
                 // Loop over them and prevent submission
                 Array.from(forms).forEach(form => {
                     form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
 
-                    form.classList.add('was-validated')
+                        form.classList.add('was-validated');
 
-                    }, false)
-                })
-            })()
+                    }, false);
+                });
+            })();
 
             document.getElementById("thankYouPage").value = window.location.origin + "/thankyou";
-        }
-    }
-    
+        },
+    });    
 </script>
 
 <style scoped>
