@@ -77,7 +77,6 @@
         padding:20px;
         margin: 20px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-        /* create an animation when hovering over the box */
         
     }
 
@@ -91,10 +90,8 @@
     }   
 
     .textbox:hover {
-        
        /* create an animation when hovering over the box */
         animation: pulse 1s;
-
     }
     
     .textbox H2{
