@@ -8,20 +8,15 @@
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openWeekday(event, 'Monday')">Monday</button>
+  <button class="tablinks" @click="openWeekday(event, 'Monday')">Monday</button>
   <hr class="dateDivider">
-  <button class="tablinks" onclick="openWeekday(event, 'Tuesday')">
-<NuxtLink to = "openWeekDay" @click = "openWeekday">
-    Tuesday
-</NuxtLink>
-
-</button>
+  <button class="tablinks" @click="openWeekday(event, 'Tuesday')">Tuesday</button>
   <hr class="dateDivider">
-  <button class="tablinks" onclick="openWeekday(event, 'Wednesday')">Wednesday</button>
+  <button class="tablinks" @click="openWeekday(event, 'Wednesday')">Wednesday</button>
   <hr class="dateDivider">
-  <button class="tablinks" onclick="openWeekday(event, 'Thursday')">Thursday</button>
+  <button class="tablinks" @click="openWeekday(event, 'Thursday')">Thursday</button>
   <hr class="dateDivider">	
-  <button class="tablinks" onclick="openWeekday(event, 'Friday')">Friday</button>
+  <button class="tablinks" @click="openWeekday(event, 'Friday')">Friday</button>
 </div>
 
 <!-- Tab content -->
@@ -342,29 +337,29 @@
 <script>
 
     export default {
-        openWeekday(evt, weekDay) {
-        // Declared variables
-     var i, tabcontent, tablinks;
+        methods: {
+            openWeekday: function(evt,weekDay){
+                        // Declared variables
+                        var i, tabcontent, tablinks;
 
-     // Get all elements with class="tabcontent" and hide them
-     tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-       tabcontent[i].style.display = "none";
-      }
+                        // Get all elements with class="tabcontent" and hide them
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
 
-     // Get all elements with class="tablinks" and remove the class "active"
-      tablinks = document.getElementsByClassName("tablinks");
-     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-     }
+                        // Get all elements with class="tablinks" and remove the class "active"
+                        tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
-        document.getElementById(weekDay).style.display = "block";
-        evt.currentTarget.className += " active";
+                        // Show the current tab, and add an "active" class to the button that opened the tab
+                        document.getElementById(weekDay).style.display = "block";
+                        evt.currentTarget.className += " active";
+            }
+        }
     }
-
-}
-
 </script>
 
 <style scoped>
