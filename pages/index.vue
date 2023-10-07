@@ -12,13 +12,15 @@ import about from '../components/about.vue';
 import schedule from '../components/schedule.vue';
 import sponsors from '../components/sponsors.vue';
 import speakers from '../components/speakers.vue';
+import footer from '../components/footer.vue';
 
 export default {
   components: {
     about,
     schedule,
     sponsors,
-    speakers
+    speakers,
+    footer
   },
   data() {
     return {
