@@ -9,13 +9,9 @@
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" @click="openWeekday(event, 'Monday')">Monday</button>
-  <hr class="dateDivider">
   <button class="tablinks" @click="openWeekday(event, 'Tuesday')">Tuesday</button>
-  <hr class="dateDivider">
   <button class="tablinks" @click="openWeekday(event, 'Wednesday')">Wednesday</button>
-  <hr class="dateDivider">
   <button class="tablinks" @click="openWeekday(event, 'Thursday')">Thursday</button>
-  <hr class="dateDivider">	
   <button class="tablinks" @click="openWeekday(event, 'Friday')">Friday</button>
 </div>
 
@@ -25,55 +21,46 @@
 		<div class="time">
   	  		<span>10:00 - 12:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Monday Schedule<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>12:00 - 12:30</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
 
    	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>12:30 - 14:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Creating a Discord Bot<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>14:00 - 14:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>14:15 - 15:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Language Carbon<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
@@ -87,55 +74,46 @@
 		<div class="time">
   	  		<span>10:00 - 12:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Tuesday Schedule<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>12:00 - 12:30</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
 
    	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>12:30 - 14:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Creating a Discord Bot<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>14:00 - 14:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>14:15 - 15:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Language Carbon<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
@@ -149,55 +127,46 @@
 		<div class="time">
   	  		<span>10:00 - 12:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Wednesday Schedule<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>12:00 - 12:30</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
 
    	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>12:30 - 14:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Creating a Discord Bot<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
 
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>14:00 - 14:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
-
+ 
   	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>14:15 - 15:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Language Carbon<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
@@ -211,55 +180,46 @@
 		<div class="time">
   	  		<span>10:00 - 12:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Thursday Schedule<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>12:00 - 12:30</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
    	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>12:30 - 14:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Creating a Discord Bot<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>14:00 - 14:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>14:15 - 15:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Language Carbon<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
@@ -273,55 +233,46 @@
 		<div class="time">
   	  		<span>10:00 - 12:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Friday Schedule<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>12:00 - 12:30</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
    	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>12:30 - 14:00</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Creating a Discord Bot<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
   			<span class="description">Room: That one<br/></span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
   		<div class="time">
   	  		<span>14:00 - 14:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Break</span>  		
   		</div>
   	</div>
-  	<hr>
-
+  
   	<div class="timePresentation">
 	  	<div class="time">
   	  		<span>14:15 - 15:15</span>
   		</div>
-  		<hr class="verticalDivider">
   		<div class="presentation">
   	 		<span class="title">Language Carbon<br/></span>
   			<span class="description">By Anon Anoonimouns<br/></span>
@@ -376,9 +327,11 @@ body{
   display: flex;
   justify-content: center;
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 2px solid #2d5b94;;
   background-color: #f1f1f1;
   font-family: 'Now';
+  padding: 0;
+  margin: 0;
 }
 
 .dateDivider{
@@ -387,7 +340,8 @@ body{
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
+  background-color: #2d5b94;
+  color: #FFFFFF;
   float: left;
   border: none;
   outline: none;
@@ -401,19 +355,19 @@ body{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #2d5b94c9;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab button:active {
   background-color: #ccc;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
+  padding: 0;
+  border: 2px solid #2d5b94;;
   border-top: none;
 }
 
@@ -424,21 +378,34 @@ body{
 /* Styling internally */
 .timePresentation {
   display: flex;
-  padding: 10px;
+  padding: 0;
+}
+
+.timePresentation:hover{
+	background-color: rgb(90,143,177,0.3);
+	transition: 0.3s;
 }
 
 .time{
-  padding: 10px;
-  padding-right: 20px;
+  padding: 10px 52px;
+  font-size: 20px;
+  color: #2d5b94;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid #2d5b94;
 }
 
 .presentation{
-  padding: 10px;
-  padding-left:20px;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  color: #2d5b94;
+  border-left: 1px solid #2d5b94;
+  border-bottom: 1px solid #2d5b94;
 }
 
 .title{
@@ -448,10 +415,6 @@ body{
 
 .description{
   font-style: italic;
-}
-
-.verticalDivider{
-  margin: 0;
 }
 
 </style>
