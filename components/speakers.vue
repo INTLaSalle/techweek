@@ -40,9 +40,9 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
@@ -56,7 +56,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Paola</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Paola</small></p>
 
                                                     </div>
 
@@ -116,9 +116,9 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
@@ -132,7 +132,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Emiliano</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Emiliano</small></p>
 
                                                     </div>
 
@@ -176,9 +176,9 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
@@ -192,7 +192,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Riya</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Riya</small></p>
 
                                                     </div>
 
@@ -591,5 +591,17 @@ export default {
 
     font-size: 17px;
     color:#73839C;
+}
+
+.card-speaker{
+    background-color: #255f96;
+}
+
+.card-speaker-letter{
+    color:white!important;
+}
+.speakers{
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 </style>
