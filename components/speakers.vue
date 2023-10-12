@@ -4,8 +4,12 @@
 
         <div class="container">
 
-            <div class="section-title">
-                <h2>The Speakers</h2>
+            <div class="row">
+
+                <div class="col-12 section-title text-center">
+                    <h2 class="text-dark text-uppercase bold">The Speakers</h2>
+                </div>
+
             </div>
 
             <div class="row">
@@ -14,6 +18,9 @@
                         <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".filter-monday">Monday</li>
                         <li data-filter=".filter-tuesday">Tuesday</li>
+                        <li data-filter=".filter-wednesday">Wednesday</li>
+                        <li data-filter=".filter-thursday">Thursday</li>
+                        <li data-filter=".filter-friday">Friday</li>
                     </ul>
                 </div>
             </div>
@@ -378,7 +385,7 @@ export default {
 
 .speakers #speakers-flters li:hover,
 .speakers #speakers-flters li.filter-active {
-  background: #18d26e;
+  background: #2d5b94;
 }
 
 .speakers #speakers-flters li:last-child {
@@ -572,7 +579,7 @@ export default {
 }
 
 .speakers-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #2d5b94;
 }
 
 .imgSpeakerSize{
@@ -602,6 +609,9 @@ export default {
 }
 .speakers{
     margin-top: 3%;
+    margin-bottom: 3%;
+}
+.section-title{
     margin-bottom: 3%;
 }
 </style>
