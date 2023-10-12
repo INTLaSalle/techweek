@@ -8,11 +8,11 @@
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" @click="openWeekday(event, 'Monday')">Monday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Tuesday')">Tuesday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Wednesday')">Wednesday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Thursday')">Thursday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Friday')">Friday</button>
+  <button class="tablinks" @click="openWeekday($event, 'Monday')">Monday</button>
+  <button class="tablinks" @click="openWeekday($event, 'Tuesday')">Tuesday</button>
+  <button class="tablinks" @click="openWeekday($event, 'Wednesday')">Wednesday</button>
+  <button class="tablinks" @click="openWeekday($event, 'Thursday')">Thursday</button>
+  <button class="tablinks" @click="openWeekday($event, 'Friday')">Friday</button>
 </div>
 
 <!-- Tab content -->
@@ -361,6 +361,10 @@ body{
 /* Create an active/current tablink class */
 .tab button:active {
   background-color: #ccc;
+}
+
+.active{
+  background-color: #ccc!important;
 }
 
 /* Style the tab content */
