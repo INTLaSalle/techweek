@@ -103,5 +103,7 @@
         text-align: justify;
     }
     
-
+    #carouselExample{
+        margin-top: 8%;
+    }
 </style>

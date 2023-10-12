@@ -320,7 +320,7 @@ export default {
     handleResize() {
       // Obtener el ancho de la ventana
       const windowWidth = window.innerWidth;
-      console.log(windowWidth);
+      //console.log(windowWidth);
       // Cambiar la clase en función del tamaño de la ventana
 
       if(windowWidth < 445){
