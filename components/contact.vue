@@ -7,8 +7,8 @@
             </div>
         </div>
 
-        <div class="row gy-4 justify-content-md-center">
-            <div class="col-6 col-md-4 col-xl-3">
+        <div class="row gy-4 justify-content-md-center justify-content-center">
+            <div :class="contactClass">
                 <div>
                     <h3 class="text-secondary text-dark bold mb-2 ">Get in Touch</h3>
                 </div>
@@ -29,16 +29,16 @@
                     <p class="text-secondary bold mb-2 font-size-15">
                         <!-- <a class="text-secondary bold mb-2 font-size-15" href="mailto:intlasalle2022@gmail.com">intlasalle2022@gmail.com</a> -->
                         <a href="https://www.facebook.com/profile.php?id=100087291936912" target="_blank">
-                            <img alt="Facebook"  src="../images/icon-facebook.svg" style="width: 25px; height: 25px; object-fit: cover;">
+                            <img alt="Facebook"  src="../images/contact/icon-facebook.svg" style="width: 25px; height: 25px; object-fit: cover;">
                         </a>
                         <a href="https://www.instagram.com/int.lasalle/" target="_blank">
-                            <img alt="Instagram"  src="../images/icon-instagram.svg" style="width: 25px; height: 25px; object-fit: cover;">
+                            <img alt="Instagram"  src="../images/contact/icon-instagram.svg" style="width: 25px; height: 25px; object-fit: cover;">
                         </a>
                         
                     </p>
                 </div>
             </div>
-            <div class="col-6 col-md-9 col-xl-5">
+            <div :class="contactClass">
                 
                 <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/7b3e4e07fd433e8ae806c5313ae90b8f" method="post">
                     <input type="hidden" name="_captcha" value="false">
@@ -95,6 +95,15 @@
 <script type="text/javascript">
 	
     export default defineComponent({
+        data() {
+            return {
+                contactClass : "col-6 col-md-5 col-xl-5",
+
+                // 1200 "col-6 col-md-6 col-xl-5"
+                // 550 "col-7 col-md-6 col-xl-5"
+            };
+        },
+        
         mounted() {
             (() => {
                 'use strict';
@@ -117,6 +126,38 @@
             })();
 
             document.getElementById("thankYouPage").value = window.location.origin + "/thankyou";
+
+            window.addEventListener("resize", this.handleResize);
+            this.handleResize();
+        },
+
+        methods: {
+            
+            handleResize() {
+                // Get the window width
+                const windowWidth = window.innerWidth;
+                //console.log(windowWidth);
+                // Change the class according the windows size
+
+                if(windowWidth < 445){
+                    this.contactClass = "col-12 col-md-4 col-xl-5";
+                }
+                else if(windowWidth >= 445 && windowWidth < 768){
+                    this.contactClass = "col-6 col-md-6 col-xl-6";
+                }else if(windowWidth >= 768 && windowWidth < 991){
+                    this.contactClass = "col-6 col-md-6 col-xl-6";
+                } 
+                else if(windowWidth >= 992 && windowWidth < 1200){
+                    this.contactClass = "col-6 col-md-5 col-xl-5";
+                } 
+                else{
+                    this.contactClass = "col-6 col-md-4 col-xl-5";
+                }
+            },
+            beforeDestroy() {
+                // Clean the listener of resize when the component is destroyed
+                window.removeEventListener("resize", this.handleResize);
+            },
         },
     });    
 </script>
@@ -158,6 +199,18 @@
     }
     button:hover {
         background-color: #155573;
+    }
+
+    #contact{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        transition: all ease-in-out 0.3s;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 </style>
