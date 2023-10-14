@@ -98,9 +98,6 @@
         data() {
             return {
                 contactClass : "col-6 col-md-5 col-xl-5",
-
-                // 1200 "col-6 col-md-6 col-xl-5"
-                // 550 "col-7 col-md-6 col-xl-5"
             };
         },
         
