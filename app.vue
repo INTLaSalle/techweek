@@ -19,14 +19,12 @@
 <script>
   import navbar from './components/navbar.vue';
   import footer from './components/footer.vue';
-  import { Footer } from '#build/components';
 
   export default defineComponent({
-    components: {
-    navbar,
-    footer,
-    Footer
-},
+      components: {
+      navbar,
+      footer
+    },
   })
 </script>
 
