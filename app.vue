@@ -2,14 +2,16 @@
 
 <template>
   <navbar />
-  <footer></footer>
-  <div class="app-container">
-    <div class="content-container">
-      <NuxtPage />
-    </div>
-    <footer />
-  </div>
-  <!-- add the link fot the footer -->
+  <footer />
+    
+      <div class="app-container">
+        <div class="content-container">
+          <NuxtPage />
+        </div>
+      </div>
+    
+      <!-- add the link for the footer -->
+  
 </template>
 
 
@@ -17,13 +19,14 @@
 <script>
   import navbar from './components/navbar.vue';
   import footer from './components/footer.vue';
+  import { Footer } from '#build/components';
 
   export default defineComponent({
     components: {
-      navbar,
-      footer,
-
-    }
+    navbar,
+    footer,
+    Footer
+},
   })
 </script>
 
