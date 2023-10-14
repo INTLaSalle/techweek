@@ -1,14 +1,16 @@
 <template>
+
+    <!-- :src="`../images/speakers/speakers-1.jpg`" -->
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="@/images/image1.png" class="d-block w-100" alt="...">
+            <img :src="`../images/image1.png`" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="@/images/image2.png" class="d-block w-100" alt="...">
+            <img :src="`../images/image1.png`" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="@/images/image3.png" class="d-block w-100" alt="...">
+            <img :src="`../images/image1.png`" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
