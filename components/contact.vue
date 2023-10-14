@@ -29,10 +29,10 @@
                     <p class="text-secondary bold mb-2 font-size-15">
                         <!-- <a class="text-secondary bold mb-2 font-size-15" href="mailto:intlasalle2022@gmail.com">intlasalle2022@gmail.com</a> -->
                         <a href="https://www.facebook.com/profile.php?id=100087291936912" target="_blank">
-                            <img alt="Facebook"  src="../images/contact/icon-facebook.svg" style="width: 25px; height: 25px; object-fit: cover;">
+                            <img alt="Facebook" :src="`../images/contact/icon-facebook.svg`" style="width: 25px; height: 25px; object-fit: cover;">
                         </a>
                         <a href="https://www.instagram.com/int.lasalle/" target="_blank">
-                            <img alt="Instagram"  src="../images/contact/icon-instagram.svg" style="width: 25px; height: 25px; object-fit: cover;">
+                            <img alt="Instagram" :src="`../images/contact/icon-instagram.svg`" style="width: 25px; height: 25px; object-fit: cover;">
                         </a>
                         
                     </p>

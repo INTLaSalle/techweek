@@ -9,16 +9,16 @@
 
         <div class="row justify-content-md-center justify-content-center">
             <div :class="sponsorsClass">
-                <img src="../images/sponsors/sponsor-college-lasalle-logo.png" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
+                <img :src="`../images/sponsors/sponsor-college-lasalle-logo.png`" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
             </div>
             <div :class="sponsorsClass">
-                <img src="../images/sponsors/sponsor-lci-education-network-logo.png" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
+                <img :src="`../images/sponsors/sponsor-lci-education-network-logo.png`" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
             </div>
             <div :class="sponsorsClass">
-                <img src="../images/sponsors/sponsor-agel-logo.png" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
+                <img :src="`../images/sponsors/sponsor-agel-logo.png`" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
             </div>
             <div :class="sponsorsClass">
-                <img src="../images/sponsors/sponsor-int-logo.png" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
+                <img :src="`../images/sponsors/sponsor-int-logo.png`" alt="" width="100%" height="85" fill="currentColor" viewBox="0 0 284 65"/>
             </div>
         </div>
     </section>
