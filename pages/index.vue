@@ -1,6 +1,6 @@
 <template>
   <slider />
-  <about/>
+  <about />
   <speakers/>
   <schedule/>
   <sponsors/>
