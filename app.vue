@@ -2,7 +2,7 @@
 
 <template>
   <navbar />
-  <footer />
+  
     
       <div class="app-container">
         <div class="content-container">
@@ -11,19 +11,19 @@
       </div>
     
       <!-- add the link for the footer -->
-  
+    <footer1 />
 </template>
 
 
 
 <script>
   import navbar from './components/navbar.vue';
-  import footer from './components/footer.vue';
+  import footer1 from './components/footer.vue';
 
   export default defineComponent({
       components: {
       navbar,
-      footer  
+      footer1,  
     },
   })
 </script>

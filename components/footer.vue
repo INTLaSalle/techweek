@@ -1,6 +1,13 @@
 
 <template>
-    <footer class="text-center text-lg-start" style="background-color: #db6930;">
+    <footer class="footer">
+
+        <!-- Copyright -->
+        <div class="footerText">
+        <p>© INT Members. All rights reserved</p>
+      </div>
+        <!-- Copyright -->
+
         <div class="footerImgs">
             <a href="https://www.facebook.com/profile.php?id=100087291936912" target="_blank">
                 <img id="face" alt="Facebook" src="../images/icons8-facebook-white.svg"
@@ -12,12 +19,6 @@
             </a>
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <p>© 2020 Copyright:</p>
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
 </template>
 
@@ -28,6 +29,16 @@ export default {
 </script>
 
 <style scoped>
+    .footer{
+        display:block;
+        justify-content:space-evenly;
+        background-color: #2d5b94;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 3%;
 
+    }
+    
 </style>
     
