@@ -27,33 +27,38 @@
 
 <style scoped>
     html, body {
-            color: #636b6f;
-            font-family: 'Work Sans', sans-serif;
-        }
+        color: #636b6f;
+        font-family: 'Work Sans', sans-serif;
+    }
 
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
+    .links > a {
+        color: #636b6f;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 
-        .col {
-            margin-top: 80px;
-        }
+    .col {
+        margin-top: 80px;
+    }
 
-        .col p {
-            font-size: 17px;
-            color: black;
-        }
+    .col p {
+        font-size: 17px;
+        color: black;
+    }
 
-        .col .col-md-8 {
-            /* background-color: #c4e3e4; */
-            background-color: #add8eb;
-            /* background-color: #eff9fd; */
-            padding: 40px;
-        }
+    .col .col-md-8 {
+        /* background-color: #c4e3e4; */
+        background-color: #add8eb;
+        /* background-color: #eff9fd; */
+        padding: 40px;
+    }
+
+    #thankyou {
+        margin-top: 12%;
+        margin-bottom: 27%;
+    }
 </style>
