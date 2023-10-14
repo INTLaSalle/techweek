@@ -1,54 +1,71 @@
 <template>
 
-    <!-- :src="`../images/speakers/speakers-1.jpg`" -->
-
-    <div class="col-lg-12 d-flex justify-content-center">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
                 <img :src="`../images/image1.png`" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img :src="`../images/image2.png`" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img :src="`../images/image3.png`" class="d-block w-100" alt="...">
-                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+                <img :src="`../images/image2.png`" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img :src="`../images/image3.png`" class="d-block w-100" alt="...">
+            </div>
         </div>
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    
-
 </template>
 
 <script>
+export default {
+  mounted() {
+    // Add an event listener for the window's resize event
+    window.addEventListener("resize", this.adjustMarginTop);
 
+    // Initial call to adjustMarginTop to set the margin based on the current viewport
+    this.adjustMarginTop();
+  },
+  methods: {
+    adjustMarginTop() {
+      // Get the viewport height
+      const viewportHeight = window.innerHeight;
+      
+      // Calculate the margin-top value based on the viewport height
+      // You can adjust the multiplier as needed
+      const margin = viewportHeight * 0.08;
+
+      // Set the margin-top value for the #carouselExample
+      document.getElementById("carouselExample").style.marginTop = `${margin}px`;
+    },
+  },
+  beforeDestroy() {
+    // Remove the event listener when the component is destroyed
+    window.removeEventListener("resize", this.adjustMarginTop);
+  },
+};
 </script>
-
 <style scoped>
-      #carouselExample {
-        display: flex;  
+    #carouselExample {
+        display: flex;
         justify-content: center;
         width: 100%;
-        margin-top:8%;
+        margin-top: 8%;
         overflow: hidden;
-           
+
     }
+
     .carousel-inner {
-           
+
         justify-content: space-around;
         width: 60%;
         height: auto;
-           
+
     }
-    
 </style>
