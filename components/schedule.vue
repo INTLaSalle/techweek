@@ -5,281 +5,283 @@
 <link href="https://fonts.cdnfonts.com/css/now" rel="test.css">
 
 -->
+  <section id="Schedule">
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" @click="openWeekday($event, 'Monday')">Monday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Tuesday')">Tuesday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Wednesday')">Wednesday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Thursday')">Thursday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Friday')">Friday</button>
+    </div>
 
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" @click="openWeekday(event, 'Monday')">Monday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Tuesday')">Tuesday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Wednesday')">Wednesday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Thursday')">Thursday</button>
-  <button class="tablinks" @click="openWeekday(event, 'Friday')">Friday</button>
-</div>
+    <!-- Tab content -->
+    <div id="Monday" class="tabcontent">
+      	<div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Monday Schedule<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-<!-- Tab content -->
-<div id="Monday" class="tabcontent">
-  	<div class="timePresentation">
-		<div class="time">
-  	  		<span>10:00 - 12:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Monday Schedule<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>12:00 - 12:30</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
+       	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>12:30 - 14:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Creating a Discord Bot<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-   	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>12:30 - 14:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Creating a Discord Bot<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 14:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>14:00 - 14:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>14:15 - 15:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Language Carbon<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+    </div>
 
-  	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>14:15 - 15:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Language Carbon<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-</div>
+    <div id="Tuesday" class="tabcontent">
+     <div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Tuesday Schedule<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-<div id="Tuesday" class="tabcontent">
- <div class="timePresentation">
-		<div class="time">
-  	  		<span>10:00 - 12:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Tuesday Schedule<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>12:00 - 12:30</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
+       	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>12:30 - 14:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Creating a Discord Bot<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-   	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>12:30 - 14:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Creating a Discord Bot<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 14:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>14:00 - 14:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>14:15 - 15:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Language Carbon<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+    </div>
 
-  	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>14:15 - 15:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Language Carbon<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-</div>
+    <div id="Wednesday" class="tabcontent">
+     <div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Wednesday Schedule<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-<div id="Wednesday" class="tabcontent">
- <div class="timePresentation">
-		<div class="time">
-  	  		<span>10:00 - 12:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Wednesday Schedule<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>12:00 - 12:30</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
+       	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>12:30 - 14:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Creating a Discord Bot<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
 
-   	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>12:30 - 14:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Creating a Discord Bot<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 14:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
+     
+      	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>14:15 - 15:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Language Carbon<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+    </div>
 
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>14:00 - 14:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
- 
-  	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>14:15 - 15:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Language Carbon<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-</div>
+    <div id="Thursday" class="tabcontent">
+     <div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Thursday Schedule<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
+      
+       	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>12:30 - 14:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Creating a Discord Bot<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 14:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>14:15 - 15:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Language Carbon<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+    </div>
 
-<div id="Thursday" class="tabcontent">
- <div class="timePresentation">
-		<div class="time">
-  	  		<span>10:00 - 12:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Thursday Schedule<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>12:00 - 12:30</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
-  
-   	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>12:30 - 14:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Creating a Discord Bot<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>14:00 - 14:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>14:15 - 15:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Language Carbon<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-</div>
+    <div id="Friday" class="tabcontent">
+     <div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Friday Schedule<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
+      
+       	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>12:30 - 14:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Creating a Discord Bot<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 14:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Break</span>  		
+      		</div>
+      	</div>
+      
+      	<div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>14:15 - 15:15</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Language Carbon<br/></span>
+      			<span class="description">By Anon Anoonimouns<br/></span>
+      			<span class="description">Room: That one<br/></span>  		
+      		</div>
+      	</div>
+    </div>
 
-<div id="Friday" class="tabcontent">
- <div class="timePresentation">
-		<div class="time">
-  	  		<span>10:00 - 12:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Friday Schedule<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>12:00 - 12:30</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
-  
-   	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>12:30 - 14:00</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Creating a Discord Bot<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-  		<div class="time">
-  	  		<span>14:00 - 14:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Break</span>  		
-  		</div>
-  	</div>
-  
-  	<div class="timePresentation">
-	  	<div class="time">
-  	  		<span>14:15 - 15:15</span>
-  		</div>
-  		<div class="presentation">
-  	 		<span class="title">Language Carbon<br/></span>
-  			<span class="description">By Anon Anoonimouns<br/></span>
-  			<span class="description">Room: That one<br/></span>  		
-  		</div>
-  	</div>
-</div>
+  </section>
 
 </template>
 
@@ -361,6 +363,10 @@ body{
 /* Create an active/current tablink class */
 .tab button:active {
   background-color: #ccc;
+}
+
+.active{
+  background-color: #ccc!important;
 }
 
 /* Style the tab content */
