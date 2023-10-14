@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 	  <div class="container-fluid">
 	    
 		<a class="navbar-brand" href="#">
@@ -13,24 +13,24 @@
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+	          <a class="nav-link active" aria-current="page" href="/">HOME</a>
 	        </li>
 
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">ABOUT</a>
+	          <a class="nav-link" href="/#carouselExample">ABOUT</a>
 	        </li>
 
 			<li class="nav-item">
-	          <a class="nav-link" href="#">SPEAKERS</a>
+	          <a class="nav-link" href="/#speakers">SPEAKERS</a>
 	        </li>
 
 			<li class="nav-item">
-	          <a class="nav-link" href="#">SCHEDULE</a>
+	          <a class="nav-link" href="/#Schedule">SCHEDULE</a>
 	        </li>
 
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 	          <a class="nav-link" href="#">VENUE</a>
-	        </li>
+	        </li> -->
 
 			<li class="nav-item">
 	          <a class="nav-link" href="/contact">JOIN / CONTACT INT</a>

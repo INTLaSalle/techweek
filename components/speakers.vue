@@ -4,8 +4,12 @@
 
         <div class="container">
 
-            <div class="section-title">
-                <h2>The Speakers</h2>
+            <div class="row">
+
+                <div class="col-12 section-title text-center">
+                    <h2 class="text-dark text-uppercase bold">The Speakers</h2>
+                </div>
+
             </div>
 
             <div class="row">
@@ -14,6 +18,9 @@
                         <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".filter-monday">Monday</li>
                         <li data-filter=".filter-tuesday">Tuesday</li>
+                        <li data-filter=".filter-wednesday">Wednesday</li>
+                        <li data-filter=".filter-thursday">Thursday</li>
+                        <li data-filter=".filter-friday">Friday</li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +37,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-1.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-1.jpg`" >
 
                             </div>
 
@@ -40,14 +47,14 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>
@@ -56,7 +63,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Paola</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Paola</small></p>
 
                                                     </div>
 
@@ -106,7 +113,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-2.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-2.jpg`">
 
                             </div>
 
@@ -116,14 +123,14 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>
@@ -132,7 +139,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Emiliano</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Emiliano</small></p>
 
                                                     </div>
 
@@ -166,7 +173,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-10.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-10.jpg`">
 
                             </div>
 
@@ -176,14 +183,14 @@
 
                                     <div class=" mx-auto" :class="customClass">
 
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-3 card-speaker" style="max-width: 540px;">
 
-                                            <div class="row g-0">
+                                            <div class="row g-0 mx-auto">
 
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>
@@ -192,7 +199,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary">Follow<br>Riya</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Riya</small></p>
 
                                                     </div>
 
@@ -313,7 +320,7 @@ export default {
     handleResize() {
       // Obtener el ancho de la ventana
       const windowWidth = window.innerWidth;
-      console.log(windowWidth);
+      //console.log(windowWidth);
       // Cambiar la clase en función del tamaño de la ventana
 
       if(windowWidth < 445){
@@ -378,7 +385,7 @@ export default {
 
 .speakers #speakers-flters li:hover,
 .speakers #speakers-flters li.filter-active {
-  background: #18d26e;
+  background: #2d5b94;
 }
 
 .speakers #speakers-flters li:last-child {
@@ -572,7 +579,7 @@ export default {
 }
 
 .speakers-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #2d5b94;
 }
 
 .imgSpeakerSize{
@@ -591,5 +598,20 @@ export default {
 
     font-size: 17px;
     color:#73839C;
+}
+
+.card-speaker{
+    background-color: #255f96;
+}
+
+.card-speaker-letter{
+    color:white!important;
+}
+.speakers{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.section-title{
+    margin-bottom: 3%;
 }
 </style>
