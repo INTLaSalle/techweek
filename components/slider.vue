@@ -54,8 +54,6 @@ export default {
                 targetDiv.style.marginTop = `35%`;
             }else if(targetDiv<300){
                 targetDiv.style.marginTop = `45%`;
-            }else{
-                targetDiv.style.marginTop = `55%`;
             }
 
 
