@@ -23,7 +23,8 @@
     </div>
 </template>
 
-<script>
+<script scoped>
+
    function adjustMarginTop() {
   // Get the viewport width
   const viewportWidth = window.innerWidth;
