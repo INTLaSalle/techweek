@@ -34,19 +34,36 @@ export default {
             const viewportWidth = window.innerWidth;
 
             // Calculate the margin-top value based on the viewport width and a 10% increment
-            const marginIncrement = viewportWidth * 0.3;
+            //const marginIncrement = viewportWidth * 0.3;
 
             // Set the initial margin-top value
-            const initialMargin = 0;
+            //const initialMargin = 0;
 
             // Calculate the new margin-top value
-            const newMargin = initialMargin + marginIncrement;
+            //const newMargin = initialMargin + marginIncrement;
 
             // Set the margin-top value for the target div (the carousel)
             const targetDiv = document.getElementById('carouselExample');
-            if (targetDiv) {
-                targetDiv.style.marginTop = `${newMargin}px`;
+            if (targetDiv>=1054){
+                targetDiv.style.marginTop = `8%`;
+            }else if(targetDiv<1054){
+                targetDiv.style.marginTop = `15%`;
+            }else if(targetDiv<700){
+                targetDiv.style.marginTop = `25%`;
+            }else if(targetDiv<450){
+                targetDiv.style.marginTop = `35%`;
+            }else if(targetDiv<300){
+                targetDiv.style.marginTop = `45%`;
+            }else{
+                targetDiv.style.marginTop = `55%`;
             }
+
+
+
+
+           /* if (targetDiv) {
+                targetDiv.style.marginTop = `${newMargin}px`;
+            }*/
         },
     },
 };
