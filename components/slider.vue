@@ -1,5 +1,4 @@
 <template>
-
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -17,19 +16,19 @@
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon" ariahidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 </template>
-
-<script scoped>
-
-export default{
-    mounted(){
-        this.adjustMarginTop();
+  
+<script>
+export default {
+    mounted() {
+        this.adjustMarginTop(); // Call it when the component is mounted
+        window.addEventListener('resize', this.adjustMarginTop); // Add resize event listener
     },
-    methods:{
+    methods: {
         adjustMarginTop() {
             // Get the viewport width
             const viewportWidth = window.innerWidth;
@@ -43,40 +42,29 @@ export default{
             // Calculate the new margin-top value
             const newMargin = initialMargin + marginIncrement;
 
-            // Set the margin-top value for the target div (change 'yourDivId' to the actual div's ID)
+            // Set the margin-top value for the target div (the carousel)
             const targetDiv = document.getElementById('carouselExample');
             if (targetDiv) {
                 targetDiv.style.marginTop = `${newMargin}px`;
             }
-        }
-
-
-    }
-
+        },
+    },
+};
+</script>
   
+<style scoped>
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8%;
+    overflow: hidden;
 }
 
-// Call the adjustMarginTop function when the page loads and when the window is resized
-window.addEventListener('load', adjustMarginTop);
-window.addEventListener('resize', adjustMarginTop);
-</script>
-
-
-<style scoped>
-    #carouselExample {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 8%;
-        overflow: hidden;
-
-    }
-
-    .carousel-inner {
-
-        justify-content: space-around;
-        width: 60%;
-        height: auto;
-
-    }
+.carousel-inner {
+    justify-content: space-around;
+    width: 60%;
+    height: auto;
+}
 </style>
+  
