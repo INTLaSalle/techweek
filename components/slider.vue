@@ -50,6 +50,8 @@ export default {
                 targetDiv.style.marginTop = `15%`;
             }else if(viewportWidth<700){
                 targetDiv.style.marginTop = `25%`;
+            }else if(viewportWidth<650){
+                targetDiv.style.marginTop = `30%`;
             }else if(viewportWidth<450){
                 targetDiv.style.marginTop = `35%`;
             }else if(viewportWidth<300){
