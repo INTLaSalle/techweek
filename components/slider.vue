@@ -33,37 +33,24 @@ export default {
             // Get the viewport width
             const viewportWidth = window.innerWidth;
 
-            // Calculate the margin-top value based on the viewport width and a 10% increment
-            //const marginIncrement = viewportWidth * 0.3;
-
-            // Set the initial margin-top value
-            //const initialMargin = 0;
-
-            // Calculate the new margin-top value
-            //const newMargin = initialMargin + marginIncrement;
-
             // Set the margin-top value for the target div (the carousel)
             const targetDiv = document.getElementById('carouselExample');
-            if (this.viewportWidth>=1054){
-                this.targetDiv.style.marginTop = `8%`;
-            }else if(this.viewportWidth<1054){
-                this.targetDiv.style.marginTop = `15%`;
-            }else if(this.viewportWidth<700){
-                this.targetDiv.style.marginTop = `25%`;
-            }else if(this.viewportWidth<650){
-                this.targetDiv.style.marginTop = `30%`;
-            }else if(this.viewportWidth<450){
-                this.targetDiv.style.marginTop = `35%`;
-            }else if(this.viewportWidth<300){
-                this.targetDiv.style.marginTop = `45%`;
+            
+            if (viewportWidth>=1054){
+                targetDiv.style.marginTop = `8%`;
+            }else if(viewportWidth<1054 && viewportWidth>=800){
+                targetDiv.style.marginTop = `15%`;
+            }else if(viewportWidth<800 && viewportWidth>=650){
+                targetDiv.style.marginTop = `25%`;
+            }else if(viewportWidth<650 && viewportWidth>=450){
+                targetDiv.style.marginTop = `40%`;
+            }else if(viewportWidth<450 && viewportWidth>=300){
+                targetDiv.style.marginTop = `50%`;
+            }else if(viewportWidth<300){
+                targetDiv.style.marginTop = `60%`;
             }
 
 
-
-
-           /* if (targetDiv) {
-                targetDiv.style.marginTop = `${newMargin}px`;
-            }*/
         },
     },
 };
@@ -74,7 +61,7 @@ export default {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 8%;
+    margin-top: 20px;
     overflow: hidden;
 }
 
