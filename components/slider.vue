@@ -34,7 +34,7 @@ export default {
             const viewportWidth = window.innerWidth;
 
             // Calculate the margin-top value based on the viewport width and a 10% increment
-            const marginIncrement = viewportWidth * 0.1;
+            const marginIncrement = viewportWidth * 0.3;
 
             // Set the initial margin-top value
             const initialMargin = 0;
