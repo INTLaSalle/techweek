@@ -24,32 +24,18 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    // Add an event listener for the window's resize event
-    window.addEventListener("resize", this.adjustMarginTop);
-
-    // Initial call to adjustMarginTop to set the margin based on the current viewport
-    this.adjustMarginTop();
-  },
-  methods: {
-    adjustMarginTop() {
-      // Get the viewport height
-      const viewportHeight = window.innerHeight;
-      
-      // Calculate the margin-top value based on the viewport height
-      // You can adjust the multiplier as needed
-      const margin = viewportHeight * 0.08;
-
-      // Set the margin-top value for the #carouselExample
-      document.getElementById("carouselExample").style.marginTop = `${margin}px`;
-    },
-  },
-  beforeDestroy() {
-    // Remove the event listener when the component is destroyed
-    window.removeEventListener("resize", this.adjustMarginTop);
-  },
-};
+    export default {
+        name: "Slider",
+        data() {
+            return {
+                images: [
+                    "../images/image1.png",
+                    "../images/image2.png",
+                    "../images/image3.png",
+                ],
+            };
+        },
+    };
 </script>
 <style scoped>
     #carouselExample {
