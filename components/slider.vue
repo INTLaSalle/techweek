@@ -25,24 +25,35 @@
 
 <script scoped>
 
-   function adjustMarginTop() {
-  // Get the viewport width
-  const viewportWidth = window.innerWidth;
+export default{
+    mounted(){
+        this.adjustMarginTop();
+    },
+    methods:{
+        adjustMarginTop() {
+            // Get the viewport width
+            const viewportWidth = window.innerWidth;
 
-  // Calculate the margin-top value based on the viewport width and a 10% increment
-  const marginIncrement = viewportWidth * 0.1;
+            // Calculate the margin-top value based on the viewport width and a 10% increment
+            const marginIncrement = viewportWidth * 0.1;
+
+            // Set the initial margin-top value
+            const initialMargin = 0;
+
+            // Calculate the new margin-top value
+            const newMargin = initialMargin + marginIncrement;
+
+            // Set the margin-top value for the target div (change 'yourDivId' to the actual div's ID)
+            const targetDiv = document.getElementById('carouselExample');
+            if (targetDiv) {
+                targetDiv.style.marginTop = `${newMargin}px`;
+            }
+        }
+
+
+    }
+
   
-  // Set the initial margin-top value
-  const initialMargin = 0;
-
-  // Calculate the new margin-top value
-  const newMargin = initialMargin + marginIncrement;
-
-  // Set the margin-top value for the target div (change 'yourDivId' to the actual div's ID)
-  const targetDiv = document.getElementById('carouselExample');
-  if (targetDiv) {
-    targetDiv.style.marginTop = `${newMargin}px`;
-  }
 }
 
 // Call the adjustMarginTop function when the page loads and when the window is resized
