@@ -1,14 +1,14 @@
 <template>
 
-    <section id="join">
-        <div class="row gy-4 justify-content-md-center">
-            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center">Join Us</h2>
+    <section id="join" >
+        <div class="row gy-4 justify-content-md-center" :style="joinTitle">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6" :style="customClass">
+                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center" >Join Us</h2>
             </div>
         </div>
 
         <div class="row gy-4 justify-content-md-center">
-            <div class="col-6 col-md-4 col-xl-4">
+            <div :class="joinClass">
                 <div>
                     <h3 class="text-secondary text-dark bold mb-2 ">Join INT Club</h3>
                 </div>
@@ -22,12 +22,12 @@
                     </a>
                 </div>
             </div>
-            <div class="col-6 col-md-9 col-xl-4">
+            <div :class="joinClass">
                 <div>
                     <h3 class="text-secondary text-dark bold mb-2 ">Join Teams</h3>
                 </div>
                 <div>
-                    <p class="text-secondary bold mb-2 font-size-15">Join TechWeek 2023 MS teams to participate online </p>
+                    <p class="text-secondary bold mb-2 font-size-15">Join online the TechWeek 2023 by MS Teams</p>
                 </div>    
                 
                 <div>
@@ -42,7 +42,85 @@
 </template>
 
 <script>
-	
+	export default {
+        data() {
+            return {
+                customClass: "margin-top: 0%;",
+                joinClass : "col-6 col-md-4 col-xl-5",
+                joinTitle : "margin-top: 8.5%;"
+            };
+        },
+        mounted() {
+
+            //this.loadExternalScripts();
+            window.addEventListener("resize", this.handleResize);
+            this.handleResize();
+            
+        },
+        methods: {
+            
+            handleResize() {
+                // Get the window width
+                const windowWidth = window.innerWidth;
+                //console.log(windowWidth);
+                // Change the class according the windows size
+
+                if(windowWidth < 445){
+                    this.joinClass = "col-12 col-md-4 col-xl-5";
+                }
+                else if(windowWidth >= 445 && windowWidth < 768){
+                    this.joinClass = "col-6 col-md-6 col-xl-6";
+                }else if(windowWidth >= 768 && windowWidth < 991){
+                    this.joinClass = "col-6 col-md-6 col-xl-6";
+                } 
+                else if(windowWidth >= 992 && windowWidth < 1200){
+                    this.joinClass = "col-6 col-md-5 col-xl-5";
+                } 
+                else{
+                    this.joinClass = "col-6 col-md-4 col-xl-5";
+                }
+
+                if(windowWidth < 194){
+                    this.joinTitle = "margin-top: 100%;";
+                }
+                else if(windowWidth >= 194 && windowWidth < 511){
+                    this.joinTitle = "margin-top: 15%;";
+                }
+                
+                else if(windowWidth >= 511 && windowWidth < 992){
+                    this.joinTitle = "margin-top: 12%;";
+                }
+                else{
+
+                    this.joinTitle = "margin-top: 8.5%;";
+
+                }
+
+                if (windowWidth < 186) {
+                    this.customClass = "margin-top: 40%;";
+                }
+                if (windowWidth >= 186 && windowWidth < 270) {
+                    this.customClass = "margin-top: 30%;";
+                } else if (windowWidth >= 270 && windowWidth < 348) {
+                    this.customClass = "margin-top: 20%;";
+                } else if (windowWidth >= 348 && windowWidth < 432) {
+                    this.customClass = "margin-top: 12%;";
+                } else if (windowWidth >= 432 && windowWidth < 511) {
+                    this.customClass = "margin-top: 8%;";
+                } else if (windowWidth >= 511 && windowWidth < 768) {
+                    this.customClass = "margin-top: 5%;";
+                } else if (windowWidth >= 768 && windowWidth < 1200) {
+                    this.customClass = "margin-top: 2%;";
+                } else {
+                    this.customClass = "margin-top: 0%;";
+                }
+            },
+            beforeDestroy() {
+                // Clean the listener of resize when the component is destroyed
+                window.removeEventListener("resize", this.handleResize);
+            },
+        },
+    }
 </script>
 
 <style scoped>
@@ -79,4 +157,18 @@
     img {
         padding: 15px;
     }
+
+    #join{
+        /* margin-top: 8.5%; */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        transition: all ease-in-out 0.3s;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 </style>

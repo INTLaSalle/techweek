@@ -37,7 +37,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-1.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-1.jpg`" >
 
                             </div>
 
@@ -54,7 +54,7 @@
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>
@@ -113,7 +113,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-2.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-2.jpg`">
 
                             </div>
 
@@ -130,7 +130,7 @@
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>
@@ -173,7 +173,7 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" src="images/speakers/speakers-10.jpg">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-10.jpg`">
 
                             </div>
 
@@ -190,7 +190,7 @@
                                                 <div class="col-4 d-flex align-items-center">
 
                                                     <a href="#">
-                                                        <img src="images/speakers/linkedin.png" alt="Logo" class="img-fluid">
+                                                        <img :src="`../images/speakers/linkedin.png`" alt="Logo" class="img-fluid">
                                                     </a>
 
                                                 </div>

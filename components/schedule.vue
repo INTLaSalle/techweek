@@ -5,6 +5,7 @@
 <link href="https://fonts.cdnfonts.com/css/now" rel="test.css">
 
 -->
+<h2 class="scheduleTitle">The Schedule</h2>
   <section id="Schedule">
     <!-- Tab links -->
     <div class="tab">
@@ -22,9 +23,9 @@
       	  		<span>10:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Monday Schedule<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Opening Ceremony<br/></span>
+      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
@@ -42,9 +43,9 @@
       	  		<span>12:30 - 14:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Creating a Discord Bot from Scratch with Python (English)<br/></span>
+      			<span class="description">By Luis Davila, Emiliano Gaitan, Paola Andrea Gonzalez<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
@@ -63,8 +64,8 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      			<span class="description">By Paola Andrea Gonzalez<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
     </div>
@@ -75,15 +76,15 @@
       	  		<span>10:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Tuesday Schedule<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Puzzle & Clues (French & English)<br/></span>
+      			<span class="description">By Mohamed Zeroug & Salima Hassaine<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>12:00 - 12:30</span>
+      	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">Break</span>  		
@@ -92,32 +93,34 @@
 
        	<div class="timePresentation">
     	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
+      	  		<span>13:30 - 15:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Scrum Project Development (French & English)<br/></span>
+      			<span class="description">By Mohamed Zeroug<br/></span>
+      			<span class="description">Room: 3324<br/></span>  		
       		</div>
       	</div>
 
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>14:00 - 14:15</span>
+		  <div class="timePresentation">
+    	  	<div class="time">
+      	  		<span>13:30 - 15:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
+      	 		<span class="title">Cisco Software-Defined Networking (SDN) (English)<br/></span>
+      			<span class="description">By Karel Bisson, ing<br/></span>
+      			<span class="description">Room: 3321<br/></span>  		
       		</div>
       	</div>
 
       	<div class="timePresentation">
     	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
+      	  		<span>15:45 - 16:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Blockchain & Voting (English)<br/></span>
+      			<span class="description">By Riya Nagpal & Oleksandr Shyryayev<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
     </div>
@@ -125,52 +128,11 @@
     <div id="Wednesday" class="tabcontent">
      <div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - 12:00</span>
+      	  		<span>10:00 - 16:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Wednesday Schedule<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 12:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>14:00 - 14:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-     
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Career Meet Up (French & English)<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
     </div>
@@ -181,15 +143,15 @@
       	  		<span>10:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Thursday Schedule<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Artificial Intelligence - Yesterday, Today & Tomorrow (English)<br/></span>
+      			<span class="description">By Kaveh Bakhtiyari<br/></span>
+      			<span class="description">Room: 3324<br/></span>  		
       		</div>
       	</div>
       
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>12:00 - 12:30</span>
+      	  		<span>12:00 - 13:00</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">Break</span>  		
@@ -198,32 +160,23 @@
       
        	<div class="timePresentation">
     	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
+      	  		<span>13:00 - 15:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Implementing a Group Policy Infrastructure (English)<br/></span>
+      			<span class="description">By Abdelhak Fennouh<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
-      
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>14:00 - 14:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-      
+
       	<div class="timePresentation">
     	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
+      	  		<span>15:15 - 16:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Introduction to Git & GitHub (English)<br/></span>
+      			<span class="description">By Nevena Jeric, Peter Papastratis<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
     </div>
@@ -234,9 +187,9 @@
       	  		<span>10:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Friday Schedule<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Memory Management (English)<br/></span>
+      			<span class="description">By Thi Hau Vu, Yinglin Lu, Yulia Samoilovich, Abdulrahman Bakhaidher<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
       
@@ -251,18 +204,18 @@
       
        	<div class="timePresentation">
     	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
+      	  		<span>12:30 - 14:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Generative Models Sing better than Human! (English)<br/></span>
+      			<span class="description">By Mohammad Esmaeilpour<br/></span>
+      			<span class="description">oom: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
       
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>14:00 - 14:15</span>
+      	  		<span>14:00 - 15:00</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">Break</span>  		
@@ -274,9 +227,9 @@
       	  		<span>14:15 - 15:15</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Anon Anoonimouns<br/></span>
-      			<span class="description">Room: That one<br/></span>  		
+      	 		<span class="title">Closing (French & English)<br/></span>
+      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
+      			<span class="description">Room: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
     </div>
@@ -324,16 +277,32 @@
 body{
   font-family: 'Now';
 }
+.scheduleTitle{
+	--bs-text-opacity: 1;
+	color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+	text-transform: uppercase !important;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#Schedule {
+	margin: 10px;
+	padding: 0px;
+	box-shadow: 10px 10px 10px rgb(45, 91, 148,0.8);
+}
 
 .tab {
   display: flex;
   justify-content: center;
+  text-align: center;
+  align-items: center;
   overflow: hidden;
   border: 2px solid #2d5b94;;
   background-color: #f1f1f1;
   font-family: 'Now';
   padding: 0;
   margin: 0;
+  font-size: 2vw;
 }
 
 .dateDivider{
@@ -362,11 +331,11 @@ body{
 
 /* Create an active/current tablink class */
 .tab button:active {
-  background-color: #ccc;
+  background-color: #2d5b94c9;
 }
 
 .active{
-  background-color: #ccc!important;
+  background-color: rgb(45, 91, 148,0.8)!important;
 }
 
 /* Style the tab content */
@@ -402,16 +371,21 @@ body{
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
-  border-bottom: 1px solid #2d5b94;
+  border: 1px solid #2d5b94;
 }
 
 .presentation{
+  display: flex;
+  flex-direction: column;
+  align-items:middle;
+  justify-content: center;
   padding: 20px 10px;
   width: 100%;
   text-align: center;
   color: #2d5b94;
-  border-left: 1px solid #2d5b94;
-  border-bottom: 1px solid #2d5b94;
+  border: 1px solid #2d5b94;
+  margin: 0;
+  position: relative;
 }
 
 .title{
@@ -421,6 +395,27 @@ body{
 
 .description{
   font-style: italic;
+}
+
+@media (max-width: 600px) {
+	
+	.tab {
+		display: grid;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+
+	.tab button {
+		width: 100%;
+		padding: 7px;
+	}
+
+	.time {
+		writing-mode: vertical-rl;
+		transform: rotateZ(180deg);
+	}
+
+
+	
 }
 
 </style>
