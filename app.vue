@@ -4,11 +4,11 @@
   <navbar />
   
     
-      <div class="app-container">
-        <div class="content-container">
-          <NuxtPage />
-        </div>
+    <div class="container">
+      <div class="row">
+        <NuxtPage/>
       </div>
+    </div>
     
       <!-- add the link for the footer -->
     <footer1 />
