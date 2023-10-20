@@ -285,6 +285,12 @@ body{
 	margin-bottom: 20px;
 }
 
+#Schedule {
+	padding: 0px;
+
+	box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
+}
+
 .tab {
   display: flex;
   justify-content: center;
@@ -365,7 +371,7 @@ body{
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
-  border-bottom: 1px solid #2d5b94;
+  border: 1px solid #2d5b94;
 }
 
 .presentation{
@@ -377,8 +383,7 @@ body{
   width: 100%;
   text-align: center;
   color: #2d5b94;
-  border-left: 1px solid #2d5b94;
-  border-bottom: 1px solid #2d5b94;
+  border: 1px solid #2d5b94;
   margin: 0;
   position: relative;
 }
