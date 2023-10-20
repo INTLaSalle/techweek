@@ -286,9 +286,9 @@ body{
 }
 
 #Schedule {
+	margin: 10px;
 	padding: 0px;
-
-	box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
+	box-shadow: 10px 10px 10px rgb(45, 91, 148,0.8);
 }
 
 .tab {
