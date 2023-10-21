@@ -36,9 +36,9 @@ export default {
             // Set the margin-top value for the target div (the carousel)
             const targetDiv = document.getElementById('carouselExample');
             
-            if (viewportWidth>=1054){
+            if (viewportWidth>=1200){
                 targetDiv.style.marginTop = `8%`;
-            }else if(viewportWidth<1054 && viewportWidth>=800){
+            }else if(viewportWidth<1200 && viewportWidth>=800){
                 targetDiv.style.marginTop = `15%`;
             }else if(viewportWidth<800 && viewportWidth>=650){
                 targetDiv.style.marginTop = `25%`;
