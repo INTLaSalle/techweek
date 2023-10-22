@@ -1,0 +1,32 @@
+{
+    "about_the_event":"À PROPOS DE L'ÉVÉNEMENT",
+    "about_message_1": "TechWeek est un événement institutionnel du Collège LaSalle, promu par les programmes d'informatique, qui vise à réunir des étudiants, des enseignants, des professionnels de l'industrie, des collaborateurs et la communauté en général autour de conférences, d'activités, d'ateliers et de mini-cours portant sur des sujets du monde de l'informatique.",
+    "about_message_2": "Cinq éditions remarquables sont passées, chacune plus extraordinaire que la précédente. Et nous en sommes qu'au début ! TechWeek n'est pas seulement un événement, c'est une tradition, une célébration, et une expérience inoubliable que notre communauté collégiale attend avec impatience.",
+    "about_message_3": "Rejoignez-nous alors que nous repoussons les limites de ce qui est possible dans le monde de l'informatique. Marquez vos calendriers, faites passer le mot et préparez-vous pour une semaine électrisante de merveilles technologiques lors de TechWeek au Collège LaSalle !",
+
+
+
+    
+    "join_us": "Rejoignez-nous",
+    "join_int_club":"Rejoignez le Club INT",
+    "to_learn":"Pour en savoir plus, n'hésitez pas à nous contacter",
+    "join_the_club":"Rejoignez le Club",
+    "join_teams":"Rejoignez les équipes",
+    "join_online": "Rejoignez en ligne la TechWeek 2023 sur MS Teams",
+
+
+    "contact_us": "Contactez-nous",
+    "get_in_touch": "Prenez contact",
+    "send_us_a_message": "Envoyez-nous un message et nous vous répondrons bientôt.",
+    "first_name": "Prénom",
+    "looks_good": "C'est bien !",
+    "provide_first_name": "Veuillez fournir votre prénom.",
+    "last_name": "Nom de famille",
+    "provide_last_name": "Veuillez fournir votre nom de famille.",
+    "email": "Email",
+    "provide_email": "Veuillez fournir votre adresse e-mail.",
+    "message": "Message",
+    "enter_message": "Veuillez saisir un message.",
+    "enter_a_message": "Saisissez un message",
+    "send": "Envoyer"
+}

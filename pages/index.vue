@@ -14,6 +14,7 @@ import about from '../components/about.vue';
 import schedule from '../components/schedule.vue';
 import sponsors from '../components/sponsors.vue';
 import speakers from '../components/speakers.vue';
+import langSwitcher from '~/components/LangSwitcher.vue';
 
 export default {
   components: {
@@ -22,6 +23,7 @@ export default {
     schedule,
     sponsors,
     speakers,
+    langSwitcher
   },
   data() {
     return {

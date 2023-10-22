@@ -3,36 +3,36 @@
     <section id="join" >
         <div class="row gy-4 justify-content-md-center" :style="joinTitle">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6" :style="customClass">
-                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center" >Join Us</h2>
+                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center" >{{ $t('join_us') }}</h2>
             </div>
         </div>
-
+     
         <div class="row gy-4 justify-content-md-center">
             <div :class="joinClass">
                 <div>
-                    <h3 class="text-secondary text-dark bold mb-2 ">Join INT Club</h3>
+                    <h3 class="text-secondary text-dark bold mb-2 ">{{ $t('join_int_club')}}</h3>
                 </div>
                 <div>
-                    <p class="text-secondary bold mb-2 font-size-15">To learn more, don't hesitate to get in touch</p>
+                    <p class="text-secondary bold mb-2 font-size-15">{{ $t('to_learn')}}</p>
                 </div>    
                 
                 <div>
                     <a  href="https://formfacade.com/public/104724340641572825850/all/form/1FAIpQLScSQN8ER2v2RdXc2ovVVUocA4yuALUyWZJG1cvO44YECKd4-w" target="_blank" >
-                        <button type="button" class="btn btn-primary btn-lg">Join the Club</button>
+                        <button type="button" class="btn btn-primary btn-lg">{{ $t('join_the_club')}}</button>
                     </a>
                 </div>
             </div>
             <div :class="joinClass">
                 <div>
-                    <h3 class="text-secondary text-dark bold mb-2 ">Join Teams</h3>
+                    <h3 class="text-secondary text-dark bold mb-2 ">{{$t('join_teams')}}</h3>
                 </div>
                 <div>
-                    <p class="text-secondary bold mb-2 font-size-15">Join online the TechWeek 2023 by MS Teams</p>
+                    <p class="text-secondary bold mb-2 font-size-15">{{$t('join_online')}}</p>
                 </div>    
                 
                 <div>
                     <a  href="https://teams.microsoft.com/l/team/19%3a5435a5537501462d97c30c9ae8c1b752%40thread.tacv2/conversations?groupId=0a1e85e4-32ef-47d0-815f-8824df174731&tenantId=7015a19d-0dbb-4c31-8709-253cf07f631f://formfacade.com/public/104724340641572825850/all/form/1FAIpQLScSQN8ER2v2RdXc2ovVVUocA4yuALUyWZJG1cvO44YECKd4-w" target="_blank" >
-                        <button type="button" class="btn btn-primary btn-lg">Join Teams</button>
+                        <button type="button" class="btn btn-primary btn-lg">{{$t('join_teams')}}</button>
                     </a>
                 </div>
             </div>
