@@ -24,8 +24,8 @@ export default{
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<NuxtLink to="/" class="nav-link active" aria-current="page">HOME</NuxtLink>
-						<!-- <a class="nav-link active" aria-current="page" href="/">HOME</a> -->
+						<!-- <NuxtLink to="/" class="nav-link active" aria-current="page">HOME</NuxtLink> -->
+						<a class="nav-link active" aria-current="page" href="/">HOME</a>
 					</li>
 
 					<li class="nav-item">
@@ -56,7 +56,10 @@ export default{
 						<NuxtLink to="#" class="nav-link">DOWNLOAD APP</NuxtLink>
 						<!-- <a class="nav-link" href="#">DOWNLOAD APP</a> -->
 					</li>
-					<langSwitcher />
+					<li class="">
+
+						<langSwitcher  />
+					</li>
 
 				</ul>
 
