@@ -20,12 +20,12 @@
     <div id="Monday" class="tabcontent">
       	<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - 12:00</span>
+      	  		<span>10:00 - ???</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Opening Ceremony<br/></span>
-      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">Protection des renseignements personnels<br/></span>
+      			<span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      			<span class="description">Room: ???<br/></span>  		
       		</div>
       	</div>
 
@@ -34,202 +34,75 @@
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot from Scratch with Python (English)<br/></span>
-      			<span class="description">By Luis Davila, Emiliano Gaitan, Paola Andrea Gonzalez<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>14:00 - 14:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Paola Andrea Gonzalez<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">Panel -Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données</span>
+				<span class="description">participent au panel: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
+      			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
     </div>
 
     <div id="Tuesday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Puzzle & Clues (French & English)<br/></span>
-      			<span class="description">By Mohamed Zeroug & Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 13:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:30 - 15:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Scrum Project Development (French & English)<br/></span>
-      			<span class="description">By Mohamed Zeroug<br/></span>
-      			<span class="description">Room: 3324<br/></span>  		
-      		</div>
-      	</div>
-
-		  <div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:30 - 15:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Cisco Software-Defined Networking (SDN) (English)<br/></span>
-      			<span class="description">By Karel Bisson, ing<br/></span>
-      			<span class="description">Room: 3321<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>15:45 - 16:45</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Blockchain & Voting (English)<br/></span>
-      			<span class="description">By Riya Nagpal & Oleksandr Shyryayev<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
+		
     </div>
 
     <div id="Wednesday" class="tabcontent">
-     <div class="timePresentation">
+		<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - 16:00</span>
+      	  		<span>10:00 - ???</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Career Meet Up (French & English)<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-    </div>
-
-    <div id="Thursday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Artificial Intelligence - Yesterday, Today & Tomorrow (English)<br/></span>
-      			<span class="description">By Kaveh Bakhtiyari<br/></span>
-      			<span class="description">Room: 3324<br/></span>  		
-      		</div>
-      	</div>
-      
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 13:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-      
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:00 - 15:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Implementing a Group Policy Infrastructure (English)<br/></span>
-      			<span class="description">By Abdelhak Fennouh<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">Ali, une application concrète de l’IA moderne<br/></span>
+      			<span class="description">Conférencier: Etienne Bolduc (OPTANIA)<br/></span>
+      			<span class="description">Room: ???<br/></span>  		
       		</div>
       	</div>
 
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>15:15 - 16:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Introduction to Git & GitHub (English)<br/></span>
-      			<span class="description">By Nevena Jeric, Peter Papastratis<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-    </div>
-
-    <div id="Friday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Memory Management (English)<br/></span>
-      			<span class="description">By Thi Hau Vu, Yinglin Lu, Yulia Samoilovich, Abdulrahman Bakhaidher<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-      
       	<div class="timePresentation">
       		<div class="time">
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
+      	 		<span class="title">Panel - L'Intelligence Artificielle : Possibilités et Défis  </span>
+				<span class="description">Participent au panels: Optania et Moov AI  <br/></span>
+      			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
-      
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>12:30 - 14:30</span>
+    </div>
+
+    <div id="Thursday" class="tabcontent">
+
+		  <div class="timePresentation">
+      		<div class="time">
+      	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Generative Models Sing better than Human! (English)<br/></span>
-      			<span class="description">By Mohammad Esmaeilpour<br/></span>
-      			<span class="description">oom: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">Panel - L'Entrepreneuriat Technologique et l'Innovation </span>
+				<span class="description">Simon Drouin-St-Pierre (OVA) Steve Desjarlais Jon Yu (Mythologi.es) <br/></span>
+      			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
-      
+    </div>
+
+    <div id="Friday" class="tabcontent">
+		<div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Présentation de l'atelier "Réalité augmentée" <br/></span>
+      			<span class="description">Conférencier: Jon Yu (Mythologi.es)<br/></span>
+      			<span class="description">Room: ???<br/></span>  		
+      		</div>
+      	</div>
+
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>14:00 - 15:00</span>
+      	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-      
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Closing (French & English)<br/></span>
-      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">Technologie et Créativité : Convergence des Arts et de la Science  </span>
+				<span class="description">Participants au panel: Jon Yu (Mythology.es)<br/></span>
+      			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
     </div>
