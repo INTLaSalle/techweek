@@ -1,6 +1,6 @@
 <template>
 <div>
-<h1>Hello in prueba, {{ message }}</h1>
+<h1>{{$t('hello_in')}} prueba, {{ message }}</h1>
 </div>
 </template>
 

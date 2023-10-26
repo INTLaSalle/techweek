@@ -7,7 +7,7 @@
             <div class="row">
 
                 <div class="col-12 section-title text-center">
-                    <h2 class="text-dark text-uppercase bold">The Speakers</h2>
+                    <h2 class="text-dark text-uppercase bold">{{$t('the_speakers')}}</h2>
                 </div>
 
             </div>
@@ -15,12 +15,12 @@
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="speakers-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-monday">Monday</li>
-                        <li data-filter=".filter-tuesday">Tuesday</li>
-                        <li data-filter=".filter-wednesday">Wednesday</li>
-                        <li data-filter=".filter-thursday">Thursday</li>
-                        <li data-filter=".filter-friday">Friday</li>
+                        <li data-filter="*" class="filter-active">{{$t('all')}}</li>
+                        <li data-filter=".filter-monday">{{$t('monday')}}</li>
+                        <li data-filter=".filter-tuesday">{{$t('tuesday')}}</li>
+                        <li data-filter=".filter-wednesday">{{$t('wednesday')}}</li>
+                        <li data-filter=".filter-thursday">{{$t('thursday')}}</li>
+                        <li data-filter=".filter-friday">{{$t('friday')}}</li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +63,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Paola</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">{{$t('follow')}}<br>Paola</small></p>
 
                                                     </div>
 
@@ -83,8 +83,8 @@
                         <div :class="SpeakerClass">
 
                            <h1>Paola Andrea Gonzalez Mayorga</h1>
-                           <p class="language"><strong>Langue :</strong> Français</p>
-                           <p>Colombienne passionnée par la recherche de nouvelles connaissances en informatique et en technologie. Actuellement étudiante à temps plein en analyse de programmation et étudiante à temps partiel en commerce électronique.</p>
+                           <p class="language"><strong>{{$t('language')}} :</strong> {{$t('french')}}</p>
+                           <p>{{$t('paola_details')}}</p>
 
                         </div>
 
@@ -104,8 +104,8 @@
                         <div :class="SpeakerClass">
 
                            <h1>Emiliano Esquer</h1>
-                           <p class="language"><strong>Language  :</strong> English</p>
-                           <p>From Tijuana, Mexico. Graduated as an Industrial Engineer in Mexico and pursuing an AEC in Information Technology Programmer Analyst, currently in third semester.</p>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}}</p>
+                           <p>{{$t('emiliano_details')}}</p>
                            
                         </div>
 
@@ -139,7 +139,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Emiliano</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">{{$t('follow')}}<br>Emiliano</small></p>
 
                                                     </div>
 
@@ -199,7 +199,7 @@
 
                                                     <div class="card-body">
 
-                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">Follow<br>Riya</small></p>
+                                                        <p class="card-text"><small class="text-body-secondary card-speaker-letter">{{$t('follow')}}<br>Riya</small></p>
 
                                                     </div>
 
@@ -219,8 +219,8 @@
                         <div :class="SpeakerClass">
 
                            <h1>Riya Nagpal</h1>
-                           <p class="language"><strong>Language  :</strong> English</p>
-                           <p>I am going to outline and apply the fundamentals of blockchain in C#. You would also learn how to properly complete the transactions, build blocks and use blockchains. And the security of blockchain. We'll give an illustration as well.</p>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}}</p>
+                           <p>{{$t('riya_details')}}</p>
 
                         </div>
 
