@@ -6,26 +6,32 @@
             setLocale(value);
         }
     });
+    const setLanguage = (code) => {
+        setLocale(code);
+    }
 </script>
 <template>
-    <!-- <NuxtLink v-for="item in locales" :key="typeof item=== 'object' ? item.code: item" :to="'/'+item.code">{{ typeof item === "object"? item.name: item }}</NuxtLink> -->
-    <!-- <NuxtLink :key="(typeof item=== 'object'? item.code: item" :to=) -->
-    <select class="switch form-select p-4 bg-info-subtle" v-model="language">
-        <option v-for="item in locales"
-            :key="typeof item=== 'object' ? item.code: item " :value="typeof item==='object' ? item.code: item">
-            {{ typeof item === "object"? item.name: item }}
-        </option>
-    </select>
+    
+    <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">{{$t('LANGUAGE')}}</a>
+
+        <ul class="dropdown-menu">
+            <li v-for="item in locales" :key="typeof item === 'object' ? item.code : item">
+                
+                <a :class="{active : language === (typeof item === 'object' ? item.code : item)} " class="dropdown-item"
+                    @click="language = typeof item === 'object' ? item.code : item"
+                >
+                    {{ typeof item === 'object' ? item.name : item }}
+                </a>
+            </li>
+        </ul>
+    </li>
+    
 </template>
 
 
 <style scoped>
  
 
-    .switch{
-        padding:1% !important;
-        width:20%;
-        height: 50%;
-        
-    }
+   /* css */
 </style>

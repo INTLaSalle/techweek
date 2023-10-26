@@ -24,23 +24,23 @@ export default{
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<NuxtLink to="/" class="nav-link active" aria-current="page">HOME</NuxtLink>
-						<!-- <a class="nav-link active" aria-current="page" href="/">HOME</a> -->
+						<NuxtLink to="/" class="nav-link active" aria-current="page">{{$t('home')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<NuxtLink to="/#carouselExample" class="nav-link">ABOUT</NuxtLink>
-						<!-- <a class="nav-link" :href="localePath('/#carouselExample')">ABOUT</a> -->
+						<NuxtLink to="/#carouselExample" class="nav-link">{{$t('about')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<NuxtLink to="/#speakers" class="nav-link">SPEAKERS</NuxtLink>
-						<!-- <a class="nav-link" href="/#speakers">SPEAKERS</a> -->
+						<NuxtLink to="/#speakers" class="nav-link">{{$t('speakers')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<NuxtLink to="/#schedule" class="nav-link">SCHEDULE</NuxtLink>
-						<!-- <a class="nav-link" href="/#Schedule">SCHEDULE</a> -->
+						<NuxtLink to="/#Schedule" class="nav-link">{{$t('schedule')}}</NuxtLink>
+						
 					</li>
 
 					<!-- <li class="nav-item">
@@ -48,16 +48,18 @@ export default{
 	        </li> -->
 
 					<li class="nav-item">
-						<NuxtLink to="/contact" class="nav-link">JOIN / CONTACT INT</NuxtLink>
-						<!-- <a class="nav-link" href="/contact">JOIN / CONTACT INT</a> -->
+						<NuxtLink to="/contact" class="nav-link">{{$t('join_contact_int')}}</NuxtLink>
+					
 					</li>
 
 					<li class="nav-item">
-						<NuxtLink to="#" class="nav-link">DOWNLOAD APP</NuxtLink>
-						<!-- <a class="nav-link" href="#">DOWNLOAD APP</a> -->
+						<NuxtLink to="#" class="nav-link">{{$t('download_app')}}</NuxtLink>
+					
 					</li>
-					<langSwitcher />
+					
 
+					<langSwitcher  />
+					
 				</ul>
 
 			</div>

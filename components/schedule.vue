@@ -5,27 +5,27 @@
 <link href="https://fonts.cdnfonts.com/css/now" rel="test.css">
 
 -->
-<h2 class="scheduleTitle">The Schedule</h2>
+<h2 class="scheduleTitle">{{$t('the_schedule')}}</h2>
   <section id="Schedule">
     <!-- Tab links -->
     <div class="tab">
-      <button class="tablinks" @click="openWeekday($event, 'Monday')">Monday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Tuesday')">Tuesday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Wednesday')">Wednesday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Thursday')">Thursday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Friday')">Friday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Monday')">{{$t('monday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Tuesday')">{{$t('tuesday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Wednesday')">{{$t('wednesday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Thursday')">{{$t('thursday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Friday')">{{$t('friday')}}</button>
     </div>
 
     <!-- Tab content -->
     <div id="Monday" class="tabcontent">
       	<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - 12:00</span>
+      	  		<span>10:00 - ????? </span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Opening Ceremony<br/></span>
-      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">{{ $t('protection_personal') }}<br/></span>
+      			<span class="description">{{$t('speaker')}}: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      			<span class="description">{{ $t('room') }}: ???<br/></span>  		
       		</div>
       	</div>
 
@@ -34,202 +34,75 @@
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>12:30 - 14:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Creating a Discord Bot from Scratch with Python (English)<br/></span>
-      			<span class="description">By Luis Davila, Emiliano Gaitan, Paola Andrea Gonzalez<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>14:00 - 14:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Language Carbon<br/></span>
-      			<span class="description">By Paola Andrea Gonzalez<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">{{$t('panel_cyber_guardians')}}</span>
+				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>
 
     <div id="Tuesday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Puzzle & Clues (French & English)<br/></span>
-      			<span class="description">By Mohamed Zeroug & Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 13:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:30 - 15:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Scrum Project Development (French & English)<br/></span>
-      			<span class="description">By Mohamed Zeroug<br/></span>
-      			<span class="description">Room: 3324<br/></span>  		
-      		</div>
-      	</div>
-
-		  <div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:30 - 15:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Cisco Software-Defined Networking (SDN) (English)<br/></span>
-      			<span class="description">By Karel Bisson, ing<br/></span>
-      			<span class="description">Room: 3321<br/></span>  		
-      		</div>
-      	</div>
-
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>15:45 - 16:45</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Blockchain & Voting (English)<br/></span>
-      			<span class="description">By Riya Nagpal & Oleksandr Shyryayev<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
+		
     </div>
 
     <div id="Wednesday" class="tabcontent">
-     <div class="timePresentation">
+		<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - 16:00</span>
+      	  		<span>10:00 - ?????</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Career Meet Up (French & English)<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-    </div>
-
-    <div id="Thursday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Artificial Intelligence - Yesterday, Today & Tomorrow (English)<br/></span>
-      			<span class="description">By Kaveh Bakhtiyari<br/></span>
-      			<span class="description">Room: 3324<br/></span>  		
-      		</div>
-      	</div>
-      
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 13:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-      
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>13:00 - 15:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Implementing a Group Policy Infrastructure (English)<br/></span>
-      			<span class="description">By Abdelhak Fennouh<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">{{$t('ali_ai_application')}}<br/></span>
+      			<span class="description">{{$t('speaker')}}: Etienne Bolduc (OPTANIA)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  		
       		</div>
       	</div>
 
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>15:15 - 16:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Introduction to Git & GitHub (English)<br/></span>
-      			<span class="description">By Nevena Jeric, Peter Papastratis<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-    </div>
-
-    <div id="Friday" class="tabcontent">
-     <div class="timePresentation">
-    		<div class="time">
-      	  		<span>10:00 - 12:00</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Memory Management (English)<br/></span>
-      			<span class="description">By Thi Hau Vu, Yinglin Lu, Yulia Samoilovich, Abdulrahman Bakhaidher<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
-      		</div>
-      	</div>
-      
       	<div class="timePresentation">
       		<div class="time">
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
+      	 		<span class="title">{{ $t('panel_artificial_intelligence') }}  </span>
+				<span class="description">{{$t('participants_panel')}}: Optania {{$t('and')}} Moov AI  <br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
-      
-       	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>12:30 - 14:30</span>
+    </div>
+
+    <div id="Thursday" class="tabcontent">
+
+		  <div class="timePresentation">
+      		<div class="time">
+      	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Generative Models Sing better than Human! (English)<br/></span>
-      			<span class="description">By Mohammad Esmaeilpour<br/></span>
-      			<span class="description">oom: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">{{ $t('panel_technological') }} </span>
+				<span class="description">Simon Drouin-St-Pierre (OVA) Steve Desjarlais Jon Yu (Mythologi.es) <br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
-      
+    </div>
+
+    <div id="Friday" class="tabcontent">
+		<div class="timePresentation">
+    		<div class="time">
+      	  		<span>10:00 - 12:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">{{$t('presentation_augmented_reality')}} <br/></span>
+      			<span class="description">{{$t('speaker')}}: Jon Yu (Mythologi.es)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  		
+      		</div>
+      	</div>
+
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>14:00 - 15:00</span>
+      	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Break</span>  		
-      		</div>
-      	</div>
-      
-      	<div class="timePresentation">
-    	  	<div class="time">
-      	  		<span>14:15 - 15:15</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Closing (French & English)<br/></span>
-      			<span class="description">By Abdelhak Fennouh, Mohamed Zeroug, Salima Hassaine<br/></span>
-      			<span class="description">Room: Jean Paul Morin<br/></span>  		
+      	 		<span class="title">{{$t('technology_and_creativity')}}  </span>
+				<span class="description">{{$t('participants_panel')}}: Jon Yu (Mythology.es)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>
