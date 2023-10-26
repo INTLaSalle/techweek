@@ -5,27 +5,27 @@
 <link href="https://fonts.cdnfonts.com/css/now" rel="test.css">
 
 -->
-<h2 class="scheduleTitle">The Schedule</h2>
+<h2 class="scheduleTitle">{{$t('the_schedule')}}</h2>
   <section id="Schedule">
     <!-- Tab links -->
     <div class="tab">
-      <button class="tablinks" @click="openWeekday($event, 'Monday')">Monday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Tuesday')">Tuesday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Wednesday')">Wednesday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Thursday')">Thursday</button>
-      <button class="tablinks" @click="openWeekday($event, 'Friday')">Friday</button>
+      <button class="tablinks" @click="openWeekday($event, 'Monday')">{{$t('monday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Tuesday')">{{$t('tuesday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Wednesday')">{{$t('wednesday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Thursday')">{{$t('thursday')}}</button>
+      <button class="tablinks" @click="openWeekday($event, 'Friday')">{{$t('friday')}}</button>
     </div>
 
     <!-- Tab content -->
     <div id="Monday" class="tabcontent">
       	<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ???</span>
+      	  		<span>10:00 - ????? </span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Protection des renseignements personnels<br/></span>
-      			<span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
-      			<span class="description">Room: ???<br/></span>  		
+      	 		<span class="title">{{ $t('protection_personal') }}<br/></span>
+      			<span class="description">{{$t('speaker')}}: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      			<span class="description">{{ $t('room') }}: ???<br/></span>  		
       		</div>
       	</div>
 
@@ -34,9 +34,9 @@
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Panel -Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données</span>
-				<span class="description">participent au panel: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
-      			<span class="description">Room: ???<br/></span>  
+      	 		<span class="title">{{$t('panel_cyber_guardians')}}</span>
+				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>
@@ -48,12 +48,12 @@
     <div id="Wednesday" class="tabcontent">
 		<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ???</span>
+      	  		<span>10:00 - ?????</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Ali, une application concrète de l’IA moderne<br/></span>
-      			<span class="description">Conférencier: Etienne Bolduc (OPTANIA)<br/></span>
-      			<span class="description">Room: ???<br/></span>  		
+      	 		<span class="title">{{$t('ali_ai_application')}}<br/></span>
+      			<span class="description">{{$t('speaker')}}: Etienne Bolduc (OPTANIA)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  		
       		</div>
       	</div>
 
@@ -62,9 +62,9 @@
       	  		<span>12:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Panel - L'Intelligence Artificielle : Possibilités et Défis  </span>
-				<span class="description">Participent au panels: Optania et Moov AI  <br/></span>
-      			<span class="description">Room: ???<br/></span>  
+      	 		<span class="title">{{ $t('panel_artificial_intelligence') }}  </span>
+				<span class="description">{{$t('participants_panel')}}: Optania {{$t('and')}} Moov AI  <br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>
@@ -76,9 +76,9 @@
       	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Panel - L'Entrepreneuriat Technologique et l'Innovation </span>
+      	 		<span class="title">{{ $t('panel_technological') }} </span>
 				<span class="description">Simon Drouin-St-Pierre (OVA) Steve Desjarlais Jon Yu (Mythologi.es) <br/></span>
-      			<span class="description">Room: ???<br/></span>  
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>
@@ -89,9 +89,9 @@
       	  		<span>10:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Présentation de l'atelier "Réalité augmentée" <br/></span>
-      			<span class="description">Conférencier: Jon Yu (Mythologi.es)<br/></span>
-      			<span class="description">Room: ???<br/></span>  		
+      	 		<span class="title">{{$t('presentation_augmented_reality')}} <br/></span>
+      			<span class="description">{{$t('speaker')}}: Jon Yu (Mythologi.es)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  		
       		</div>
       	</div>
 
@@ -100,9 +100,9 @@
       	  		<span>11:00 - 11:45</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Technologie et Créativité : Convergence des Arts et de la Science  </span>
-				<span class="description">Participants au panel: Jon Yu (Mythology.es)<br/></span>
-      			<span class="description">Room: ???<br/></span>  
+      	 		<span class="title">{{$t('technology_and_creativity')}}  </span>
+				<span class="description">{{$t('participants_panel')}}: Jon Yu (Mythology.es)<br/></span>
+      			<span class="description">{{$t('room')}}: ???<br/></span>  
       		</div>
       	</div>
     </div>

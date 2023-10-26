@@ -3,17 +3,17 @@
     <section id="contact">
         <div class="row gy-4 justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center">Contact Us</h2>
+                <h2 class=" text-secondary text-dark text-uppercase bold mb-2 text-center">{{$t('contact_us')}}</h2>
             </div>
         </div>
 
         <div class="row gy-4 justify-content-md-center justify-content-center">
             <div :class="contactClass">
                 <div>
-                    <h3 class="text-secondary text-dark bold mb-2 ">Get in Touch</h3>
+                    <h3 class="text-secondary text-dark bold mb-2 ">{{ $t('get_in_touch') }}</h3>
                 </div>
                 <div class="margin-bottom-20">
-                    <p class="text-secondary bold mb-2 font-size-15">Send us a message & we'll get back to you shortly.</p>
+                    <p class="text-secondary bold mb-2 font-size-15">{{ $t('send_us_a_message') }}</p>
                 </div>
                 <div class="margin-bottom-20">
                     <p class="text-secondary bold mb-2 font-size-15">Collège LaSalle</p>
@@ -46,44 +46,44 @@
                     <input type="hidden" name="_subject" value="An user have sent a message from TechWeek 2023 WebSite!">
                     <input type="hidden" name="_template" value="table">
                     <div class="col-md-6">
-                        <label for="validationCustom01" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" name="firstName" required>
+                        <label for="validationCustom01" class="form-label">{{ $t('first_name') }}</label>
+                        <input type="text" class="form-control" id="validationCustom01" :placeholder="$t('first_name')" name="firstName" required>
                         <div class="valid-feedback feedback-pos">
-                        Looks good!
+                            {{ $t('looks_good') }}
                         </div>
                         <div class="invalid-feedback feedback-pos">
-                        Please provide your First Name.
+                            {{ $t('provide_first_name') }}
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <label for="validationCustom02" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" name="lastName" required>
+                        <label for="validationCustom02" class="form-label">{{ $t('last_name') }}</label>
+                        <input type="text" class="form-control" id="validationCustom02" :placeholder="$t('last_name')" name="lastName" required>
                         <div class="valid-feedback feedback-pos">
-                        Looks good!
+                            {{ $t('looks_good') }}
                         </div>
                         <div class="invalid-feedback feedback-pos">
-                        Please provide your Last Name.
+                            {{ $t('provide_last_name') }}
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <label for="validationCustom03" class="form-label">Email</label>
+                        <label for="validationCustom03" class="form-label">{{ $t('email') }}</label>
                         <input type="email" name="email" class="form-control" id="validationEmail" placeholder="example@email.com" required>
                         <div class="invalid-feedback feedback-pos">
-                        Please provide your email.
+                            {{ $t('provide_email') }}
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="validationTextarea" class="form-label">Message</label>
-                        <textarea name="message" class="form-control" id="validationTextarea" placeholder="Enter a message" required></textarea>
+                        <label for="validationTextarea" class="form-label">{{ $t('message') }}</label>
+                        <textarea name="message" class="form-control" id="validationTextarea" :placeholder="$t('enter_a_message')" required></textarea>
                         <div class="valid-feedback feedback-pos">
-                        Looks good!
+                            {{ $t('looks_good') }}
                         </div>
                         <div class="invalid-feedback feedback-pos">
-                            Please enter a message.
+                            {{ $t('enter_message') }}
                         </div>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Send</button>
+                        <button class="btn btn-primary" type="submit">{{ $t('send') }}</button>
                     </div>
                 </form>
             </div>
