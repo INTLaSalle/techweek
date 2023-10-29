@@ -1,0 +1,90 @@
+{
+    "about_the_event":"À PROPOS DE L'ÉVÉNEMENT",
+    "about_message_1": "TechWeek est un événement institutionnel du Collège LaSalle, promu par les programmes d'informatique, qui vise à réunir des étudiants, des enseignants, des professionnels de l'industrie, des collaborateurs et la communauté en général autour de conférences, d'activités, d'ateliers et de mini-cours portant sur des sujets du monde de l'informatique.",
+    "about_message_2": "Cinq éditions remarquables sont passées, chacune plus extraordinaire que la précédente. Et nous en sommes qu'au début ! TechWeek n'est pas seulement un événement, c'est une tradition, une célébration, et une expérience inoubliable que notre communauté collégiale attend avec impatience.",
+    "about_message_3": "Rejoignez-nous alors que nous repoussons les limites de ce qui est possible dans le monde de l'informatique. Marquez vos calendriers, faites passer le mot et préparez-vous pour une semaine électrisante de merveilles technologiques lors de TechWeek au Collège LaSalle !",
+
+
+
+    
+    "join_us": "Rejoignez-nous",
+    "join_int_club":"Rejoignez le Club INT",
+    "to_learn":"Pour en savoir plus, n'hésitez pas à nous contacter",
+    "join_the_club":"Rejoignez le Club",
+    "join_teams":"Rejoignez les équipes",
+    "join_online": "Rejoignez en ligne la TechWeek 2023 sur MS Teams",
+
+
+    "contact_us": "Contactez-nous",
+    "get_in_touch": "Prenez contact",
+    "send_us_a_message": "Envoyez-nous un message et nous vous répondrons bientôt.",
+    "first_name": "Prénom",
+    "looks_good": "C'est bien !",
+    "provide_first_name": "Veuillez fournir votre prénom.",
+    "last_name": "Nom de famille",
+    "provide_last_name": "Veuillez fournir votre nom de famille.",
+    "email": "Email",
+    "provide_email": "Veuillez fournir votre adresse e-mail.",
+    "message": "Message",
+    "enter_message": "Veuillez saisir un message.",
+    "enter_a_message": "Saisissez un message",
+    "send": "Envoyer",
+
+    "the_schedule": "Le Programme",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "protection_personal": "Protection des renseignements personnels",
+    "speaker": "Conférencier",
+    "room": "Salle",
+    "panel_cyber_guardians": "Panel - Gardiens de la cybersécurité : Explorez la superpuissance de la cybersécurité et des données",
+    "participants_panel": "Participants au panel",
+    "ali_ai_application": "Ali, une application concrète de l'IA moderne",
+    "panel_artificial_intelligence": "Panel - L'Intelligence Artificielle : Possibilités et Défis",
+    "and": "et",
+    "panel_technological": "Panel - L'Entrepreneuriat Technologique et l'Innovation",
+    "presentation_augmented_reality": "Présentation de l'atelier \"Réalité augmentée\"",
+    "technology_and_creativity":"Technologie et Créativité : Convergence des Arts et de la Science",
+
+    "previous": "Précédent",
+    "next": "Suivant",
+
+    "the_speakers": "Les Conférenciers",
+    "all": "Tout",
+    "follow": "Suivre",
+    "paola_details": "Colombienne passionnée par la recherche de nouvelles connaissances en informatique et en technologie. Actuellement étudiante à temps plein en analyse de programmation et étudiante à temps partiel en commerce électronique.",
+    "language": "Langue",
+    "english": "Anglais",
+    "emiliano_details": "Originaire de Tijuana, Mexique. Diplômé en tant qu'ingénieur industriel au Mexique et poursuit un AEC en analyse de programmeur en technologie de l'information, actuellement au troisième semestre.",
+    "riya_details": "Je vais expliquer et appliquer les principes fondamentaux de la blockchain en C#. Vous apprendrez également comment effectuer correctement les transactions, construire des blocs et utiliser des blockchains. Et la sécurité de la blockchain. Nous donnerons également une illustration.",
+    "french": "Français",
+
+
+    "our_sponsors": "Nos Sponsors",
+
+    "thanks": "Merci",
+    "form_submitted_successfully_msg": "Le formulaire a été soumis avec succès. Nous vous répondrons par e-mail dès que possible.",
+    "return_message": "Retour au site d'origine :",
+
+    
+    "int_members": "Membres de l'INT. Tous droits réservés.",
+
+    "home": "ACCUEIL",
+    "about": "À PROPOS",
+    "speakers": "CONFÉRENCIERS",
+    "schedule": "PROGRAMME",
+    "join_contact_int": "REJOINDRE / CONTACTER L'INT",
+    "download_app": "TÉLÉCHARGER L'APPLICATION",
+
+    "LANGUAGE": "LANGUE",
+
+    "hello_in": "Bonjour dans"
+
+
+
+
+
+
+}

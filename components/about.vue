@@ -1,25 +1,24 @@
 <template>
     <div class="about">
         <div class="textbox">
-            <h2>ABOUT THE EVENT</h2><br/><br/>
+            <h2>{{ $t('about_the_event')}}</h2><br/><br/>
             <p>
-                TechWeek is an institutional event of LaSalle College, promoted by the Computer Science programs 
-                which aim to bring together students, teachers, industry professionals, collaborators and the community 
-                in general around conferences, activities, workshops and mini-courses on topics from the IT world. 
+                {{ $t('about_message_1')}}
                 
             </p>
-            <p> Five remarkable editions have passed by, each more extraordinary than the last. And we're just 
-                getting started! TechWeek is not just an event—it's a tradition, a celebration, 
-                and an unforgettable experience that our college community eagerly awaits.
+            <p> {{ $t('about_message_2') }}
             </p>
-            <p> Join us as we push the boundaries of what's possible in the world of IT. Mark your calendars, spread 
-                the word, and get ready for an electrifying week of tech wonders at LaSalle College's TechWeek!
+            <p> {{ $t('about_message_3') }}
             </p>
         </div>
 
     </div>
 
 </template>
+
+<script>
+    //const localPath= useLocalPath();
+</script>
 
 <style scoped>
   

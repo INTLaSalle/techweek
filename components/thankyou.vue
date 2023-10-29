@@ -3,9 +3,9 @@
     <section id="thankyou">
         <div class="col">
             <div class="col-md-8 offset-md-2">
-                <h1>Thanks!</h1>
-                <p>The form was submitted successfully. We will return to you by email as soon as possible. 
-                    <p>Return to original site: 
+                <h1>{{$t('thanks')}}!</h1>
+                <p>{{ $t('form_submitted_successfully_msg') }}
+                    <p>{{$t('return_message')}} 
                         <a id="originHomePage" class="links" href="https://localhost:3000">https://localhost:3000</a>
                     </p>
                 </p>

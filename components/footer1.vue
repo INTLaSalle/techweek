@@ -4,7 +4,7 @@
 
         <!-- Copyright -->
         <div class="footerText">
-        <p>© INT Members. All rights reserved</p>
+        <p>© {{$t('int_members')}}</p>
       </div>
         <!-- Copyright -->
         <!-- :src="`../images/speakers/speakers-1.jpg`" -->

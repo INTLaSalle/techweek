@@ -1,3 +1,14 @@
+<script>
+import langSwitcher from './LangSwitcher.vue';
+
+// const {localPath} = useLocalePath();
+
+export default{
+	components: {
+		langSwitcher,
+	},
+}
+</script>
 <template>
 	<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 	  <div class="container-fluid">
@@ -13,19 +24,23 @@
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">HOME</a>
+						<NuxtLink to="/" class="nav-link active" aria-current="page">{{$t('home')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="/#carouselExample">ABOUT</a>
+						<NuxtLink to="/#carouselExample" class="nav-link">{{$t('about')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="/#speakers">SPEAKERS</a>
+						<NuxtLink to="/#speakers" class="nav-link">{{$t('speakers')}}</NuxtLink>
+						
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="/#Schedule">SCHEDULE</a>
+						<NuxtLink to="/#Schedule" class="nav-link">{{$t('schedule')}}</NuxtLink>
+						
 					</li>
 
 					<!-- <li class="nav-item">
@@ -33,14 +48,18 @@
 	        </li> -->
 
 					<li class="nav-item">
-						<a class="nav-link" href="/contact">JOIN / CONTACT INT</a>
+						<NuxtLink to="/contact" class="nav-link">{{$t('join_contact_int')}}</NuxtLink>
+					
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#">DOWNLOAD APP</a>
+						<NuxtLink to="#" class="nav-link">{{$t('download_app')}}</NuxtLink>
+					
 					</li>
+					
 
-
+					<langSwitcher  />
+					
 				</ul>
 
 			</div>
@@ -48,8 +67,5 @@
 	</nav>
 </template>
 
-<script>
-
-</script>
 
 <style scoped></style>

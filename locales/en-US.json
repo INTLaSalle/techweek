@@ -1,0 +1,90 @@
+{
+    "about_the_event": "ABOUT THE EVENT",
+    "about_message_1": "TechWeek is an institutional event of LaSalle College, promoted by the Computer Science programs which aim to bring together students, teachers, industry professionals, collaborators and the community in general around conferences, activities, workshops and mini-courses on topics from the IT world.",
+    "about_message_2":"Five remarkable editions have passed by, each more extraordinary than the last. And we're just getting started! TechWeek is not just an event—it's a tradition, a celebration, and an unforgettable experience that our college community eagerly awaits.",
+    "about_message_3": "Join us as we push the boundaries of what's possible in the world of IT. Mark your calendars, spread the word, and get ready for an electrifying week of tech wonders at LaSalle College's TechWeek!",
+
+    
+    "join_us": "Join Us",
+    "join_int_club":"Join INT Club",
+    "to_learn":"To learn more, don't hesitate to get in touch",
+    "join_the_club":"Join the Club",
+    "join_teams":"Join Teams",
+    "join_online": "Join online the TechWeek 2023 by MS Teams",
+    
+
+    "contact_us":"Contact Us",
+    "get_in_touch":"Get in Touch",
+    "send_us_a_message":"Send us a message & we'll get back to you shortly.",
+    "first_name":"First name",
+    "looks_good":"Looks good!",
+    "provide_first_name":"Please provide your First Name.",
+    "last_name": "Last name",
+    "provide_last_name":"Please provide your Last Name.",
+    "email": "Email",
+    "provide_email":"Please provide your email.",
+    "message": "Message",
+    "enter_message":"Please enter a message.",
+    "enter_a_message":"Enter a message",
+    "send": "Send",
+
+
+    "the_schedule":"The Schedule",
+    "monday":"Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday" : "Thursday",
+    "friday" : "Friday",
+    "protection_personal": "Protection of personal information",
+    "speaker": "Speaker",
+    "room": "Room",
+    "panel_cyber_guardians": "Panel - Cyber Guardians: Explore the Superpower of Cybersecurity and Data",
+    "participants_panel": "Participants in the panel",
+    "ali_ai_application": "Ali, a practical application of modern AI.",
+    "panel_artificial_intelligence" : "Panel - Artificial Intelligence: Opportunities and Challenges",
+    "and" : "and",
+    "panel_technological" : "Panel - Technological Entrepreneurship and Innovation",
+    "presentation_augmented_reality" : "Presentation of the \"Augmented Reality\" Workshop",
+    "technology_and_creativity":"Technology and Creativity: Convergence of Arts and Science",
+
+
+    "previous": "Previous",
+    "next": "Next",
+
+    "the_speakers": "The Speakers",
+    "all": "All",
+    "follow": "Follow",
+    "paola_details" : "Passionate Colombian in the pursuit of new knowledge in computer science and technology. Currently a full-time student in programming analysis and a part-time student in e-commerce.",
+    "language" : "Language",
+    "english": "English",
+    "emiliano_details": "From Tijuana, Mexico. Graduated as an Industrial Engineer in Mexico and pursuing an AEC in Information Technology Programmer Analyst, currently in third semester.",
+    "riya_details": "I am going to outline and apply the fundamentals of blockchain in C#. You would also learn how to properly complete the transactions, build blocks and use blockchains. And the security of blockchain. We'll give an illustration as well.",
+    "french": "French",
+
+
+    "our_sponsors": "Our Sponsors",
+
+    "thanks": "Thanks",
+    "form_submitted_successfully_msg": "The form was submitted successfully. We will return to you by email as soon as possible.",
+    "return_message": "Return to original site:",
+    
+    "int_members": "INT Members. All rights reserved",
+
+    "home": "HOME",
+    "about": "ABOUT",
+    "speakers": "SPEAKERS",
+    "schedule": "SCHEDULE",
+    "join_contact_int": "JOIN / CONTACT INT",
+    "download_app": "DOWNLOAD APP",
+
+    "LANGUAGE":"LANGUAGE",
+
+    "hello_in": "Hello in"
+    
+
+
+
+
+
+
+}
