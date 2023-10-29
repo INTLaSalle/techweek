@@ -18,27 +18,60 @@
 
     <!-- Tab content -->
     <div id="Monday" class="tabcontent">
-      	<div class="timePresentation">
+      <div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ???</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Protection des renseignements personnels<br/></span>
-      			<span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
-      			<span class="description">Room: ???<br/></span>  		
-      		</div>
+      		<span>10:00 - 11:00</span>
       	</div>
+      	<div class="presentation">
+      		<span class="title">Protection des renseignements personnels<br/></span>
+      		<span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      		<span class="description">Room: ???<br/></span>  		
+      	</div>
+      </div>
 
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>12:00 - 12:30</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Panel -Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données</span>
-				<span class="description">participent au panel: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
-      			<span class="description">Room: ???<br/></span>  
-      		</div>
+      <div class="timePresentation">
+        <div class="time">
+      	  <span>10:00 - 11:00</span>
+        </div>
+        <div class="presentation">
+      	  <span class="title">Conférence: Protection des renseignements personnels<br/></span>
+      	  <span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      	  <span class="description">Room: ???<br/></span>  		
+        </div>
+      </div>
+      
+      <div class="timePresentation">
+        <div class="time">
+      	  <span>11:00 - 12:00</span>
+        </div>
+        <div class="presentation">
+      	  <span class="title">Conférence: Microsoft et son centre de cyberdéfense - Comment débuter son SOC<br/></span>
+      	  <span class="description">Conférencier: Joël Qumper (Microsoft)<br/></span>
+      	  <span class="description">Room: ???<br/></span>  		
+        </div>
+      </div>
+
+      <div class="timePresentation">
+      	<div class="time">
+        	<span>12:00 - 13:30</span>
       	</div>
+      	<div class="presentation">
+       		<span class="title">Panel - Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données</span>
+			    <span class="description">Panelistes: Joël Qumper (Microsoft) et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
+      		<span class="description">Room: ???<br/></span>  
+      	</div>
+      </div>
+
+      <div class="timePresentation">
+    		<div class="time">
+        	<span>14:00 - 15:00</span>
+      	</div>
+      	<div class="presentation">
+       		<span class="title">Conférence: Sous le capot de la cybercriminalité. Le sujet traitera des différentes étapes de monétisation des organisations par les cybercriminels</span>
+			    <span class="description">Conférencier: Bertrand Milot (Bradley & Rollins)<br/></span>
+      		<span class="description">Room: ???<br/></span>  
+      	</div>
+      </div>
     </div>
 
     <div id="Tuesday" class="tabcontent">
@@ -48,10 +81,10 @@
     <div id="Wednesday" class="tabcontent">
 		<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ???</span>
+      	  		<span>10:00 - 11:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Ali, une application concrète de l’IA moderne<br/></span>
+      	 		<span class="title">Conférence: Ali, une application concrète de l’IA moderne<br/></span>
       			<span class="description">Conférencier: Etienne Bolduc (OPTANIA)<br/></span>
       			<span class="description">Room: ???<br/></span>  		
       		</div>
@@ -59,25 +92,59 @@
 
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>12:00 - 12:30</span>
+      	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">Panel - L'Intelligence Artificielle : Possibilités et Défis  </span>
-				<span class="description">Participent au panels: Optania et Moov AI  <br/></span>
+				  <span class="description">Participent au panels: Optania et Moov AI  <br/></span>
       			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
+
+        <div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 15:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Journée carrière</span>
+      			<span class="description">Room: ???<br/></span>  
+      		</div>
+      	</div>
+
+
     </div>
 
     <div id="Thursday" class="tabcontent">
 
 		  <div class="timePresentation">
       		<div class="time">
-      	  		<span>11:00 - 11:45</span>
+      	  		<span>10:00 - 11:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Panel - L'Entrepreneuriat Technologique et l'Innovation </span>
-				<span class="description">Simon Drouin-St-Pierre (OVA) Steve Desjarlais Jon Yu (Mythologi.es) <br/></span>
+      	 		<span class="title">Conférence: La commercialisation des technologies immersives </span>
+				    <span class="description">Conférencier: Simon Drouin St-Pierre (OVA AI)<br/></span>
+      			<span class="description">Room: ???<br/></span>  
+      		</div>
+      	</div>
+
+        <div class="timePresentation">
+      		<div class="time">
+      	  		<span>11:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Conférence: Chatbot conversationnel pour le retail - Retail chatbot the story</span>
+				    <span class="description">Conférencier: Steve Desjarlais (Heyday AI)<br/></span>
+      			<span class="description">Room: ???<br/></span>  
+      		</div>
+      	</div>
+
+        <div class="timePresentation">
+      		<div class="time">
+      	  		<span>12:00 - 13:30</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Panel - L'Entrepreneuriat Technologique et l'Innovation</span>
+				    <span class="description">Panelistes: Simon Drouin St-Pierre (OVA AI) Steve Desjarlais (Heyday AI) Jon Yu (Mythologi.es) Animateur du panel: A déterminer<br/></span>
       			<span class="description">Room: ???<br/></span>  
       		</div>
       	</div>
@@ -93,22 +160,9 @@
       			<span class="description">Conférencier: Jon Yu (Mythologi.es)<br/></span>
       			<span class="description">Room: ???<br/></span>  		
       		</div>
-      	</div>
-
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>11:00 - 11:45</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">Technologie et Créativité : Convergence des Arts et de la Science  </span>
-				<span class="description">Participants au panel: Jon Yu (Mythology.es)<br/></span>
-      			<span class="description">Room: ???<br/></span>  
-      		</div>
-      	</div>
+      	</div>      	
     </div>
-
   </section>
-
 </template>
 
 
