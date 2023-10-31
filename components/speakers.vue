@@ -37,11 +37,11 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-1.jpg`" >
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/protectionPersonnel.jpg`" >
 
                             </div>
 
-                            <div class="col-12 linkedin_button">
+                            <!-- <div class="col-12 linkedin_button">
 
                                 <div class="row">
 
@@ -77,12 +77,12 @@
 
                                 </div>
 
-                            </div>
+                            </div> -->
 
                         </div>
                         <div :class="SpeakerClass">
 
-                           <h1>Paola Andrea Gonzalez Mayorga</h1>
+                           <h1>Dr. Jaafar Fehmi (UQAR)</h1>
                            <p class="language"><strong>{{$t('language')}} :</strong> {{$t('french')}}</p>
                            <p>{{$t('paola_details')}}</p>
 
@@ -103,9 +103,9 @@
 
                         <div :class="SpeakerClass">
 
-                           <h1>Emiliano Esquer</h1>
-                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}}</p>
-                           <p>{{$t('emiliano_details')}}</p>
+                           <h1>Joël Qumper (Microsoft)</h1>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / French </p>
+                           <!-- <p>{{$t('emiliano_details')}}</p> -->
                            
                         </div>
 
@@ -113,11 +113,11 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-2.jpg`">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/microsoftCyberdefense.jfif`">
 
                             </div>
 
-                            <div class="col-12 linkedin_button">
+                            <!-- <div class="col-12 linkedin_button">
 
                                 <div class="row">
 
@@ -153,7 +153,7 @@
 
                                 </div>
 
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -165,7 +165,7 @@
 
             <!-- Start profile speakers -->
 
-                <div class="col-lg-12 col-md-12 speakers-item filter-tuesday">
+               <div class="col-lg-12 col-md-12 speakers-item filter-monday">
 
                     <div class="row">
 
@@ -173,11 +173,11 @@
 
                             <div class="col-12 text-center">
 
-                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/speakers-10.jpg`">
+                                <img class="img-fluid imgSpeakerSize" :src="`../images/speakers/bradleyandrollins.jfif`">
 
                             </div>
 
-                            <div class="col-12 linkedin_button">
+                            <!-- <div class="col-12 linkedin_button">
 
                                 <div class="row">
 
@@ -213,20 +213,20 @@
 
                                 </div>
 
-                            </div>
+                            </div> -->
 
                         </div>
                         <div :class="SpeakerClass">
 
-                           <h1>Riya Nagpal</h1>
-                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}}</p>
+                           <h1>Bertrand Milot (Bradley & Rollins)</h1>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / French</p>
                            <p>{{$t('riya_details')}}</p>
 
                         </div>
 
                     </div>
 
-                </div>
+                </div> 
 
             <!-- End profile speakers -->
 
