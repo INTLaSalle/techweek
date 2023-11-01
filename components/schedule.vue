@@ -20,25 +20,49 @@
     <div id="Monday" class="tabcontent">
       	<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ????? </span>
+      	  		<span>10:00 - 11:00 </span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{ $t('protection_personal') }}<br/></span>
       			<span class="description">{{$t('speaker')}}: Dr. Jaafar Fehmi (UQAR)<br/></span>
-      			<span class="description">{{ $t('room') }}: ???<br/></span>  		
+      			<span class="description">{{ $t('room') }}: Jean Paul Morin<br/></span>  		
+      		</div>
+      	</div>
+
+		<div class="timePresentation">
+      		<div class="time">
+      	  		<span>11:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">{{$t('microsoft_cybersecurity')}}</span>
+				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft) <br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
 
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>12:00 - 12:30</span>
+      	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{$t('panel_cyber_guardians')}}</span>
-				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft)  et Dr. Jaafar Fehmi (UQAR)  Patrick Carboneau (Animateur) <br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  
+				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft), Dr. Jaafar Fehmi (UQAR) {{ $t('and') }} Bertrand Milot (Bradley & Rollins) - Patrick Carboneau ({{$t('moderator')}}) <br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
+
+		<div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 15:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">{{$t('title_cybercrime')}}</span>
+				<span class="description">{{$t('participants_panel')}}: Bertrand Milot (Bradley & Rollins) <br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
+      		</div>
+      	</div>
+
+
     </div>
 
     <div id="Tuesday" class="tabcontent">
@@ -48,39 +72,61 @@
     <div id="Wednesday" class="tabcontent">
 		<div class="timePresentation">
     		<div class="time">
-      	  		<span>10:00 - ?????</span>
+      	  		<span>10:00 - 11:00</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{$t('ali_ai_application')}}<br/></span>
       			<span class="description">{{$t('speaker')}}: Etienne Bolduc (OPTANIA)<br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  		
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
       	<div class="timePresentation">
       		<div class="time">
-      	  		<span>12:00 - 12:30</span>
+      	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{ $t('panel_artificial_intelligence') }}  </span>
-				<span class="description">{{$t('participants_panel')}}: Optania {{$t('and')}} Moov AI  <br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  
+				<span class="description">{{$t('participants_panel')}}: Etienne Bolduc (OPTANIA)<br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
     </div>
 
     <div id="Thursday" class="tabcontent">
 
-		  <div class="timePresentation">
-      		<div class="time">
-      	  		<span>11:00 - 11:45</span>
+			<div class="timePresentation">
+      			<div class="time">
+      	  			<span>10:00 - 11:00</span>
+      			</div>
+      			<div class="presentation">
+      	 			<span class="title">{{$t('title_marketing_technologies')}}</span>
+					<span class="description">Simon Drouin-St-Pierre (OVA AI)<br/></span>
+      				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
+      			</div>
       		</div>
-      		<div class="presentation">
-      	 		<span class="title">{{ $t('panel_technological') }} </span>
-				<span class="description">Simon Drouin-St-Pierre (OVA) Steve Desjarlais Jon Yu (Mythologi.es) <br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  
+
+			<div class="timePresentation">
+      			<div class="time">
+      	  			<span>11:00 - 12:00</span>
+      			</div>
+      			<div class="presentation">
+      	 			<span class="title">Chatbot conversationnel pour le retail - Retail chatbot the story</span>
+					<span class="description">Steve Desjarlais (Heyday AI)<br/></span>
+      				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
+      			</div>
       		</div>
-      	</div>
+
+		  	<div class="timePresentation">
+      			<div class="time">
+      	  			<span>12:00 - 13:30</span>
+      			</div>
+      			<div class="presentation">
+      	 			<span class="title">{{ $t('panel_technological') }} </span>
+					<span class="description">Simon Drouin-St-Pierre (OVA), Steve Desjarlais (Heyday AI), Jon Yu (Mythologi.es) <br/></span>
+      				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
+      			</div>
+      		</div>
     </div>
 
     <div id="Friday" class="tabcontent">
@@ -91,20 +137,11 @@
       		<div class="presentation">
       	 		<span class="title">{{$t('presentation_augmented_reality')}} <br/></span>
       			<span class="description">{{$t('speaker')}}: Jon Yu (Mythologi.es)<br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  		
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
-      	<div class="timePresentation">
-      		<div class="time">
-      	  		<span>11:00 - 11:45</span>
-      		</div>
-      		<div class="presentation">
-      	 		<span class="title">{{$t('technology_and_creativity')}}  </span>
-				<span class="description">{{$t('participants_panel')}}: Jon Yu (Mythology.es)<br/></span>
-      			<span class="description">{{$t('room')}}: ???<br/></span>  
-      		</div>
-      	</div>
+    
     </div>
 
   </section>
