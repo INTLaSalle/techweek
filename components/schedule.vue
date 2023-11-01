@@ -111,7 +111,7 @@
       	  			<span>11:00 - 12:00</span>
       			</div>
       			<div class="presentation">
-      	 			<span class="title">Chatbot conversationnel pour le retail - Retail chatbot the story</span>
+      	 			<span class="title">{{ $t('chatbot_conversation') }}</span>
 					<span class="description">Steve Desjarlais (Heyday AI)<br/></span>
       				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       			</div>
