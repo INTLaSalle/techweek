@@ -104,7 +104,7 @@
                         <div :class="SpeakerClass">
 
                            <h1>Joël Qumper (Microsoft)</h1>
-                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / French </p>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / {{$t('french')}} </p>
                            <!-- <p>{{$t('emiliano_details')}}</p> -->
                            
                         </div>
@@ -219,7 +219,7 @@
                         <div :class="SpeakerClass">
 
                            <h1>Bertrand Milot (Bradley & Rollins)</h1>
-                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / French</p>
+                           <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / {{$t('french')}}</p>
                            <p>{{$t('riya_details')}}</p>
 
                         </div>
