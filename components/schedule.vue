@@ -34,7 +34,7 @@
       	  		<span>11:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Microsoft et son centre de cyberdéfense - Comment débuter son SOC</span>
+      	 		<span class="title">{{$t('microsoft_cybersecurity')}}</span>
 				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft) <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
@@ -46,7 +46,7 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{$t('panel_cyber_guardians')}}</span>
-				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft), Dr. Jaafar Fehmi (UQAR) et Bertrand Milot (Bradley & Rollins) - Patrick Carboneau (Animateur) <br/></span>
+				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft), Dr. Jaafar Fehmi (UQAR) {{ $t('and') }} Bertrand Milot (Bradley & Rollins) - Patrick Carboneau ({{$t('moderator')}}) <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
@@ -56,7 +56,7 @@
       	  		<span>14:00 - 15:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">Sous le capot de la cybercriminalité. Le sujet traitera des différentes étapes de monétisation des organisations par les cybercriminels</span>
+      	 		<span class="title">{{$t('title_cybercrime')}}</span>
 				<span class="description">{{$t('participants_panel')}}: Bertrand Milot (Bradley & Rollins) <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
@@ -100,7 +100,7 @@
       	  			<span>10:00 - 11:00</span>
       			</div>
       			<div class="presentation">
-      	 			<span class="title">La commercialisation des technologies immersives</span>
+      	 			<span class="title">{{$t('title_marketing_technologies')}}</span>
 					<span class="description">Simon Drouin-St-Pierre (OVA AI)<br/></span>
       				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       			</div>
@@ -111,7 +111,7 @@
       	  			<span>11:00 - 12:00</span>
       			</div>
       			<div class="presentation">
-      	 			<span class="title">Chatbot conversationnel pour le retail - Retail chatbot the story</span>
+      	 			<span class="title">{{ $t('chatbot_conversation') }}</span>
 					<span class="description">Steve Desjarlais (Heyday AI)<br/></span>
       				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       			</div>
