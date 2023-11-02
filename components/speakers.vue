@@ -83,8 +83,8 @@
                         <div :class="SpeakerClass">
 
                            <h1>Dr. Jaafar Fehmi (UQAR)</h1>
-                           <p class="language"><strong>{{$t('language')}} :</strong> {{$t('french')}}</p>
-                           <p>{{$t('paola_details')}}</p>
+                           <p class="language"><strong>{{$t('language')}} :</strong> {{$t('english')}} / {{$t('french')}}</p>
+                           <!-- <p>{{$t('paola_details')}}</p> -->
 
                         </div>
 
@@ -220,7 +220,7 @@
 
                            <h1>Bertrand Milot (Bradley & Rollins)</h1>
                            <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / {{$t('french')}}</p>
-                           <p>{{$t('riya_details')}}</p>
+                           <!-- <p>{{$t('riya_details')}}</p> -->
 
                         </div>
 
