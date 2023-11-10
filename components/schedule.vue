@@ -23,8 +23,8 @@
       	  		<span>10:00 - 11:00 </span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{ $t('protection_personal') }}<br/></span>
-      			<span class="description">{{$t('speaker')}}: Dr. Jaafar Fehmi (UQAR)<br/></span>
+      	 		<span class="title">Protection des renseignements personnels<br/></span>
+      			<span class="description">Conférencier: Dr. Jaafar Fehmi (UQAR)<br/></span>
       			<span class="description">{{ $t('room') }}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
@@ -34,8 +34,8 @@
       	  		<span>11:00 - 12:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{$t('microsoft_cybersecurity')}}</span>
-				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft) <br/></span>
+      	 		<span class="title">Microsoft et son centre de cyberdéfense - Comment débuter son SOC</span>
+				<span class="description">Conférencier: Joël Qumper (Microsoft) <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
@@ -45,8 +45,9 @@
       	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{$t('panel_cyber_guardians')}}</span>
-				<span class="description">{{$t('participants_panel')}}: Joël Qumper (Microsoft), Dr. Jaafar Fehmi (UQAR) {{ $t('and') }} Bertrand Milot (Bradley & Rollins) - Patrick Carboneau ({{$t('moderator')}}) <br/></span>
+      	 		<span class="title">Panel -Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données</span>
+				<span class="description">Panelistes: Joël Qumper (Microsoft), Dr. Jaafar Fehmi (UQAR), Bertrand Milot (Bradley & Rollins)<br/></span>
+				<span class="description">Animateur du panel: Patrick Carbonneau <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
@@ -56,8 +57,8 @@
       	  		<span>14:00 - 15:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{$t('title_cybercrime')}}</span>
-				<span class="description">{{$t('participants_panel')}}: Bertrand Milot (Bradley & Rollins) <br/></span>
+      	 		<span class="title">Sous le capot de la cybercriminalité. Le sujet traitera des différentes étapes de monétisation des organisations par les cybercriminels </span>
+				<span class="description">Conférencier: Bertrand Milot (Bradley & Rollins) <br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
@@ -66,7 +67,16 @@
     </div>
 
     <div id="Tuesday" class="tabcontent">
-		
+		<div class="timePresentation">
+    		<div class="time">
+      	  		<span>14:00 - 15:00 </span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Intelligence artificielle : faites partie des innovateurs, pas des récalcitrants!<br/></span>
+      			<span class="description">Conférencier: pascale.berube (vooban)<br/></span>
+      			<span class="description">{{ $t('room') }}: Jean Paul Morin<br/></span>  		
+      		</div>
+      	</div>
     </div>
 
     <div id="Wednesday" class="tabcontent">
@@ -75,8 +85,19 @@
       	  		<span>10:00 - 11:00</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{$t('ali_ai_application')}}<br/></span>
-      			<span class="description">{{$t('speaker')}}: Etienne Bolduc (OPTANIA)<br/></span>
+      	 		<span class="title"> Ali, une application concrète de l’IA moderne<br/></span>
+      			<span class="description">Conférencier: Etienne Bolduc et Charles Cousyn (OPTANIA)<br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
+      		</div>
+      	</div>
+
+		  <div class="timePresentation">
+    		<div class="time">
+      	  		<span>11:00 - 12:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">L'IA générative, ami ou ennemi?<br/></span>
+      			<span class="description">Conférencier: Guillaume Bolduc (MOOV AI)<br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
@@ -86,33 +107,34 @@
       	  		<span>12:00 - 13:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{ $t('panel_artificial_intelligence') }}  </span>
-				<span class="description">{{$t('participants_panel')}}: Etienne Bolduc (OPTANIA)<br/></span>
+      	 		<span class="title">Panel - L'Intelligence Artificielle : Possibilités et Défis</span>
+				<span class="description">Panelistes: Etienne Bolduc et Charles Cousyn (OPTANIA), Guillaume Petitclerc (MOOV AI), Sebastien Bernard (GOLOGIC)<br/></span>
+				<span class="description">Animateur du panel: Patrick Carbonneau<br/></span>
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
+      		</div>
+      	</div>
+
+		  <div class="timePresentation">
+      		<div class="time">
+      	  		<span>14:00 - 15:00</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">Journée carrière</span>
+				<!-- <span class="description"><br/></span> -->
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
       	</div>
     </div>
 
     <div id="Thursday" class="tabcontent">
-
-			<div class="timePresentation">
-      			<div class="time">
-      	  			<span>10:00 - 11:00</span>
-      			</div>
-      			<div class="presentation">
-      	 			<span class="title">{{$t('title_marketing_technologies')}}</span>
-					<span class="description">Simon Drouin-St-Pierre (OVA AI)<br/></span>
-      				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
-      			</div>
-      		</div>
-
+		
 			<div class="timePresentation">
       			<div class="time">
       	  			<span>11:00 - 12:00</span>
       			</div>
       			<div class="presentation">
-      	 			<span class="title">{{ $t('chatbot_conversation') }}</span>
-					<span class="description">Steve Desjarlais (Heyday AI)<br/></span>
+      	 			<span class="title">Chatbot conversationnel pour le retail - Retail chatbot the story </span>
+					<span class="description">Conférencier: Steve Desjarlais (Heyday AI)<br/></span>
       				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       			</div>
       		</div>
@@ -122,8 +144,9 @@
       	  			<span>12:00 - 13:30</span>
       			</div>
       			<div class="presentation">
-      	 			<span class="title">{{ $t('panel_technological') }} </span>
-					<span class="description">Simon Drouin-St-Pierre (OVA), Steve Desjarlais (Heyday AI), Jon Yu (Mythologi.es) <br/></span>
+      	 			<span class="title">Panel - L'Entrepreneuriat Technologique et l'Innovation </span>
+					<span class="description">Panelistes: Steve Desjarlais (Heyday AI), Jon Yu (Mythologi.es)<br/></span>
+					<span class="description">Animateur du panel: JF Ouellette<br/></span>
       				<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       			</div>
       		</div>
@@ -135,12 +158,22 @@
       	  		<span>10:00 - 12:30</span>
       		</div>
       		<div class="presentation">
-      	 		<span class="title">{{$t('presentation_augmented_reality')}} <br/></span>
-      			<span class="description">{{$t('speaker')}}: Jon Yu (Mythologi.es)<br/></span>
+      	 		<span class="title">Atelier "Réalité augmentée (10h à 12h30) <br/></span>
+      			<span class="description">Conférencier: Jon Yu (Mythologi.es)<br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
 
+		  <div class="timePresentation">
+    		<div class="time">
+      	  		<span>??:?? - ??:??</span>
+      		</div>
+      		<div class="presentation">
+      	 		<span class="title">LAN PARTY<br/></span>
+      			<!-- <span class="description">Conférencier: Jon Yu (Mythologi.es)<br/></span> -->
+      			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
+      		</div>
+      	</div>
     
     </div>
 
