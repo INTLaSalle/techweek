@@ -35,20 +35,43 @@
     "wednesday": "Wednesday",
     "thursday" : "Thursday",
     "friday" : "Friday",
-    "microsoft_cybersecurity": "Microsoft and its cybersecurity center - How to start your SOC",
+
+
+    "opening_ceremony": "Opening ceremony ",
+    "IT_teachers": "IT teachers",
+
+    "cyber_security": "Cyber Security Risks in Artificial Intelligence",
+    "guest_speaker": "Guest speaker",
+    
+    "panel_cyber_guardians": "Panel - Cyber guardiens : Explore the Superpower of Cybersecurity and Data",
+    "panelistes": "Panelists",
+    "panel_facilitator": "Panel facilitator",
+
+    "title_cybercrime": "Under the hood of cybercrime. The subject will deal with the different stages of monetization of organizations by cybercriminals",
+    "title_artificial": "Artificial intelligence: be one of the innovators, not part of the resistance!",
+    "ali_ai_application": "Ali, a concrete application of modern AI",
+    "generative_ai": "Generative AI, friend or foe?",
+    "panel_artificial_intelligence" : "Panel - Artificial Intelligence: Possibilites and Challenges",
+    "career_day": "Career Day" ,
+    "plaza": "Plaza 6th floor",
+    "microsoft_cybersecurity": "Microsoft and their Cyber defense center - How to start  SOC",
+    "new_lci": "Implementation of the new LCI educaton website",
+    "chatbot_conversation" : "Retail chatbot the story",
+    "panel_technological" : "Panel - Technological Entrepreneurship and Innovation",
+    "teacher_lasalle": "Teacher at College Lasalle",
+    "leadership": "Thought Leadership",
+    "augmented_reality": "Augmented reality - Worshop",
+    
+
+
+
     "moderator": "Moderator",
-    "chatbot_conversation" : "Chatbot conversation for retail - The story of the retail chatbot",
-    "title_cybercrime": "Under the Hood of Cybercrime. The topic will cover the various stages of monetization by cybercriminal organizations",
     "title_marketing_technologies": "The marketing of immersive technologies",
     "protection_personal": "Protection of personal information",
     "speaker": "Speaker",
     "room": "Room",
-    "panel_cyber_guardians": "Panel - Cyber Guardians: Explore the Superpower of Cybersecurity and Data",
-    "participants_panel": "Participants in the panel",
-    "ali_ai_application": "Ali, a practical application of modern AI.",
-    "panel_artificial_intelligence" : "Panel - Artificial Intelligence: Opportunities and Challenges",
+   
     "and" : "and",
-    "panel_technological" : "Panel - Technological Entrepreneurship and Innovation",
     "presentation_augmented_reality" : "Presentation of the \"Augmented Reality\" Workshop",
     "technology_and_creativity":"Technology and Creativity: Convergence of Arts and Science",
 

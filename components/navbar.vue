@@ -53,7 +53,7 @@ export default{
 					</li>
 
 					<li class="nav-item">
-						<NuxtLink to="#" class="nav-link">{{$t('download_app')}}</NuxtLink>
+						<NuxtLink to="https://bit.ly/techweek_2023" class="nav-link">{{$t('download_app')}}</NuxtLink>
 					
 					</li>
 					
