@@ -33,10 +33,10 @@ export default{
 						
 					</li>
 
-					<li class="nav-item">
+					<!-- <li class="nav-item">
 						<NuxtLink to="/#speakers" class="nav-link">{{$t('speakers')}}</NuxtLink>
 						
-					</li>
+					</li> -->
 
 					<li class="nav-item">
 						<NuxtLink to="/#Schedule" class="nav-link">{{$t('schedule')}}</NuxtLink>
