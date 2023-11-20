@@ -1,7 +1,7 @@
 <template>
   <slider />
   <about />
-  <speakers/>
+  
   <schedule/>
   <sponsors/>
 </template>
@@ -22,7 +22,7 @@ export default {
     about,
     schedule,
     sponsors,
-    speakers,
+   
     langSwitcher
   },
   data() {
