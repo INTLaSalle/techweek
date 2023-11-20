@@ -82,7 +82,7 @@
                         </div>
                         <div :class="SpeakerClass">
 
-                           <h1>Dr. Jaafar Fehmi (UQAR)</h1>
+                           <h1>Dr. Jaafar Fehmi (UQAC)</h1>
                            <p class="language"><strong>{{$t('language')}} :</strong> {{$t('english')}} / {{$t('french')}}</p>
                            <!-- <p>{{$t('paola_details')}}</p> -->
 
@@ -103,7 +103,7 @@
 
                         <div :class="SpeakerClass">
 
-                           <h1>Joël Qumper (Microsoft)</h1>
+                           <h1>Joël Quimper (Microsoft)</h1>
                            <p class="language"><strong>{{$t('language')}}  :</strong> {{$t('english')}} / {{$t('french')}} </p>
                            <!-- <p>{{$t('emiliano_details')}}</p> -->
                            

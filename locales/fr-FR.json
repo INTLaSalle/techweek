@@ -36,20 +36,43 @@
     "wednesday": "Mercredi",
     "thursday": "Jeudi",
     "friday": "Vendredi",
+    
+    
+    "opening_ceremony": "Céremonie d'ouverture",
+    "IT_teachers": "Enseignants en informatique",
+
+    "cyber_security": "Risques de cyberécurité dans l’intelligence artificielle",
+    "guest_speaker": "Conférencier",
+    
+    "panel_cyber_guardians": "Panel - Cyber guardiens : Explorez la Superpuissance de la Cybersécurité et des Données",
+    "panelistes": "Panelistes",
+    "panel_facilitator": "Animateur du panel",
+    
+
+
+    "title_cybercrime": "Sous le capot de la cybercriminalité. Le sujet traitera des différentes étapes de monétisation des organisations par les cybercriminels",
+    
+    "title_artificial": "Intelligence artificielle : faites partie des innovateurs, pas des récalcitrants!",
+    
+    "ali_ai_application": "Ali, une application concrète de l'IA moderne",
+    "generative_ai": "L'IA générative, ami ou ennemi?",
+    "panel_artificial_intelligence": "Panel - L'Intelligence Artificielle : Possibilités et Défis",
+    "career_day": "Journée carrière",
+    "plaza": "Plaza au 6e étage",
+    "microsoft_cybersecurity": "Microsoft et son centre de cyberdéfense - Comment débuter son SOC",
+    "new_lci": "Mise en place du nouveau site web LCI educaiton",
+    "chatbot_conversation":"Chatbot conversationnel pour le retail",
+    "panel_technological": "Panel - L'Entrepreneuriat Technologique et l'Innovation",
+    "teacher_lasalle": "Enseignant Collège Lasalle",
+    "leadership": "Leadershio d'opinion",
+    "augmented_reality": "Réalité augmentée",
+
     "protection_personal": "Protection des renseignements personnels",
     "speaker": "Conférencier",
     "room": "Salle",
-    "microsoft_cybersecurity": "Microsoft et son centre de cyberdéfense - Comment débuter son SOC",
     "moderator": "Animateur",
-    "chatbot_conversation":"Chatbot conversationnel pour le commerce de détail - L'histoire du chatbot pour le commerce de détail",
-    "title_cybercrime": "Sous le capot de la cybercriminalité. Le sujet traitera des différentes étapes de monétisation des organisations par les cybercriminels",
     "title_marketing_technologies": "La commercialisation des technologies immersives",
-    "panel_cyber_guardians": "Panel - Gardiens de la cybersécurité : Explorez la superpuissance de la cybersécurité et des données",
-    "participants_panel": "Participants au panel",
-    "ali_ai_application": "Ali, une application concrète de l'IA moderne",
-    "panel_artificial_intelligence": "Panel - L'Intelligence Artificielle : Possibilités et Défis",
     "and": "et",
-    "panel_technological": "Panel - L'Entrepreneuriat Technologique et l'Innovation",
     "presentation_augmented_reality": "Présentation de l'atelier \"Réalité augmentée\"",
     "technology_and_creativity":"Technologie et Créativité : Convergence des Arts et de la Science",
 
