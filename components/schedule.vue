@@ -78,7 +78,7 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{$t('title_artificial')}}<br/></span>
-      			<span class="description">{{$t('guest_speaker')}}: Alexandre Gervais (vooban)<br/></span>
+      			<span class="description">{{$t('guest_speaker')}}: Hubert Pelletier (Responsable du développement des affaires Vooban)<br/></span>
       			<span class="description">{{ $t('room') }}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
@@ -91,7 +91,7 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title"> {{$t('ali_ai_application')}}<br/></span>
-      			<span class="description">{{$t('guest_speaker')}}: Etienne Bolduc et Charles Cousyn (OPTANIA)<br/></span>
+      			<span class="description">{{$t('guest_speaker')}}: Etienne Bolduc (OPTANIA)<br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
@@ -102,7 +102,7 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{ $t('generative_ai') }}<br/></span>
-      			<span class="description">{{$t('guest_speaker')}}: Guillaume Bolduc (MOOV AI)<br/></span>
+      			<span class="description">{{$t('guest_speaker')}}: Guillaume Petitclerc (MOOV AI)<br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  		
       		</div>
       	</div>
@@ -113,7 +113,7 @@
       		</div>
       		<div class="presentation">
       	 		<span class="title">{{ $t('panel_artificial_intelligence') }}</span>
-				<span class="description">{{$t('panelistes')}}: Etienne Bolduc {{$t('and')}} Charles Cousyn (OPTANIA), Guillaume Petitclerc (MOOV AI), Sebastien Bernard (GOLOGIC)<br/></span>
+				<span class="description">{{$t('panelistes')}}: Etienne Bolduc (OPTANIA), Guillaume Petitclerc (MOOV AI), Sebastien Bernard (GOLOGIC)<br/></span>
 				<span class="description">{{$t('panel_facilitator')}}: Patrick Carbonneau (LCI LX studio)<br/></span>
       			<span class="description">{{$t('room')}}: Jean Paul Morin<br/></span>  
       		</div>
